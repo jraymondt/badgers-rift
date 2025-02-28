@@ -1,7 +1,8 @@
 ---
 title: what is the x (x-rayvision (o.o)) in mdx
 description: all this and more, coming up
-publishedDate: 2024-10-26
+pubDate: 2024-10-26
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - markdown
   - TIL

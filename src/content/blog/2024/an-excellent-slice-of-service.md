@@ -1,7 +1,8 @@
 ---
 title: an excellent slice of service
 description: deep down
-publishedDate: 2024-11-16
+pubDate: 2024-11-16
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - llhama
   - daily reflection

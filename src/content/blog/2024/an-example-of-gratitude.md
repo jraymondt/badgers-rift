@@ -1,7 +1,8 @@
 ---
 title: had to go to the web oracle for answers
 description: gratitude - if you are reading this I love you
-publishedDate: 2024-11-13
+pubDate: 2024-11-13
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - love
   - step 1

@@ -1,7 +1,8 @@
 ---
 title: also spook zarathustra
 description: souls glorious souls
-publishedDate: 2024-10-31
+pubDate: 2024-10-31
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - Halloween
   - all hallows eve

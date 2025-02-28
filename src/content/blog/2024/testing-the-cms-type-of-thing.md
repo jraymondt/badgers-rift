@@ -1,7 +1,8 @@
 ---
 title: testing the CMS type of thing
 description: not really sure how it is going at this point
-publishedDate: 2024-11-09
+pubDate: 2024-11-09
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - halloween
   - clippy

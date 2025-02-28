@@ -1,7 +1,8 @@
 ---
 title: almost daily wombles
 description: the wombles of wimbledon are wimbly your womble
-publishedDate: 2024-11-07
+pubDate: 2024-11-07
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - wombles
   - wimbledon

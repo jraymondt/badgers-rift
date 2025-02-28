@@ -1,7 +1,8 @@
 ---
 title: in-flight entertainment
 description: strap in kids, it is going to
-publishedDate: 2024-12-05
+pubDate: 2024-12-05
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - dog tags
   - ads

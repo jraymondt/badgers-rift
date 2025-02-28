@@ -1,7 +1,8 @@
 ---
 title: why missed Tuesday bloggins?
 description: i am very busy, okay! Thanks
-publishedDate: 2024-10-30
+pubDate: 2024-10-30
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - halloweeneve
   - tarot

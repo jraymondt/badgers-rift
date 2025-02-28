@@ -1,7 +1,8 @@
 ---
 title: what teh feck
 description: right up the badger
-publishedDate: 2024-11-03
+pubDate: 2024-11-03
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - once human
   - south perth

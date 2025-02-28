@@ -1,7 +1,8 @@
 ---
 title: Image Usage
 description: Embedding images and using Open Graph images in Nordlys
-publishedDate: 2024-10-17
+pubDate: 2024-10-17
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - documentation
 ---

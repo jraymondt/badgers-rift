@@ -1,7 +1,8 @@
 ---
 title: today is the day
 description: tomorrow is another day
-publishedDate: 2024-11-04 10:45:10
+pubDate: 2024-11-04 10:45:10
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - blogging
   - grandad

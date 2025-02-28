@@ -1,7 +1,8 @@
 ---
 title: real information for real people
 description: information for Monday Health Scene AA guest spot on Radio Fremantle
-publishedDate: 2025-01-01
+pubDate: 2025-01-01
+heroImage: '/blog-placeholder-3.jpg'
 tags:
   - twenty-five
   - radio

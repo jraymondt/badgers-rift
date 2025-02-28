@@ -1,7 +1,8 @@
 ---
 title: a complete tool
 description: daily reflection
-publishedDate: 2024-11-15
+pubDate: 2024-11-15
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - hacking
   - daily reflection

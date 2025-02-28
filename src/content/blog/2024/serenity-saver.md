@@ -1,7 +1,8 @@
 ---
 title: serenity saver
 description: meditate on it
-publishedDate: 2024-11-08
+pubDate: 2024-11-08
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - meditation
   - serenity

@@ -1,7 +1,8 @@
 ---
 title: this title can get knotted
 description: so can your felt tipped choc mint spotted dick
-publishedDate: 2025-01-09
+pubDate: 2025-01-09
+heroImage: '/blog-placeholder-3.jpg'
 tags:
   - tool
   - cruxify

@@ -1,7 +1,8 @@
 ---
 title: mark of the beast
 description: we are in a spot of bother
-publishedDate: 2024-11-01
+pubDate: 2024-11-01
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - all saints day
   - spam

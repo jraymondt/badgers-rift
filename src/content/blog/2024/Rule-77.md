@@ -1,7 +1,8 @@
 ---
 title: Rule 77
 description: The Internet makes you stupid
-publishedDate: 2024-12-30
+pubDate: 2024-12-30
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - internet
   - schema

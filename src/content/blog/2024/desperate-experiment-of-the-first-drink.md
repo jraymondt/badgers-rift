@@ -1,7 +1,8 @@
 ---
 title: the desperate experiment of the first blog
 description: so, you think you can blog?
-publishedDate: 2024-10-25
+pubDate: 2024-10-25
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - program
   - first

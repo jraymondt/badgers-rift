@@ -1,7 +1,8 @@
 ---
 title: I learned something
 description: update on the new step I learned
-publishedDate: 2024-10-24
+pubDate: 2024-10-24
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - programming
   - TIL

@@ -1,7 +1,8 @@
 ---
 title: my thoughts on the year ahead
 description: an uneducated guess
-publishedDate: 2025-01-01
+pubDate: 2025-01-01
+heroImage: '/blog-placeholder-3.jpg'
 tags:
   - twenty five
   - daily reflection

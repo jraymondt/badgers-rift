@@ -1,7 +1,8 @@
 ---
 title: factor of 12
 description: alex's favourite number puzzle, 12 is everywhere maaaaaaaaaaaaaaaaaaan
-publishedDate: 2024-12-08
+pubDate: 2024-12-08
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - weather
   - manatee

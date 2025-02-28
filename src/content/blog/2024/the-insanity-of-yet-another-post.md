@@ -1,7 +1,8 @@
 ---
 title: the insane person just keeps doing it
 description: try not to soil your keks
-publishedDate: 2024-10-27
+pubDate: 2024-10-27
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - halloween
   - clippy
