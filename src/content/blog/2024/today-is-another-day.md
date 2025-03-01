@@ -11,10 +11,10 @@ tags:
 
 Grandad McGranaghan used to have a thing he would say when something wasn't going our way: "tomorrow is another day", fairly obvious, thanks Grandad.
 
-![thing](/src/assets/img/2024/treeoflife.jpg)
+![thing](/public/img/2024/treeoflife.jpg)
 
 I did not may much attention to Grandads ramblings back then, but one day at a time I get it. Tomorrow is another day, if I am sober the day is ours.
 
 That is all, I started writing this a while a go, I'm not sure where I was going with it. There we go.
 
-![seedy](/src/assets/img/2024/karrgatup_seeds.jpg)
+![seedy](/public/img/2024/karrgatup_seeds.jpg)

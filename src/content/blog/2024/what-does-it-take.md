@@ -14,7 +14,7 @@ tags:
 ## I know it's not a party if it happens every night
 
 It is 4am good time to write some non-sense into a computer blog screen, I woke up with this in my head.
-![hello pal frens](/src/assets/img/2024/sundaysperth.jpg)
+![hello pal frens](/public/img/2024/sundaysperth.jpg)
 [this place is a prison](https://youtu.be/NMgoQBHx12g?si=CxLK2YHcDv7mVlaI)
 
 I first heard this while I was an inpatient at Ramsay Clinic Hollywood, just after we had done some Mindful Music Listening with a favourite facilitator. I remember thinking he would have kittens if I had played this. Little did he know, when another facilitator ran the same activity, I made everyone listen to the [Johnny Cash version of Hurt](https://youtu.be/8AHCfZTRGiI?si=o9P6JMmW8yTJJ4RT), not to trigger or cause anyone Hurt, I just thought it was relevant, halfway through I realised it was a mistake, the people that matter to me liked it though. You know who you are.
@@ -27,12 +27,12 @@ I do realise there is good websites out there, I just haven't found too many. If
 
 In other news, bloodtests are looking good but BAD cholesterol. Off to the gym with you!
 
-![monday nights are all right for not fighting](/src/assets/img/2024/aahighgatemonday.jpg)
+![monday nights are all right for not fighting](/public/img/2024/aahighgatemonday.jpg)
 
 Thanks for reading my nonsense. :heart_on_fire:
 
-![sunday hj](/src/assets/img/2024/sundaynighthjs.jpg)
+![sunday hj](/public/img/2024/sundaynighthjs.jpg)
 
 At least we don't have toll-roads yet.
 
-![toll](/src/assets/img/2024/tollroad.jpg)
+![toll](/public/img/2024/tollroad.jpg)

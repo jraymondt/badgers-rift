@@ -2,7 +2,7 @@
 title: good shit
 description: a very un-funny typo
 pubDate: 2025-02-06
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/public/img/2025/clams.png'
 tags:
   - fibs
   - typos
@@ -19,7 +19,7 @@ The more confused you and I are the better, if we start working this shit out so
 
 David Lynch still fills me with cherry pie, there is no good reason for the title of this typewriter journal. In fact--
 
-![tart](/src/assets/2025/20250126_swan.png)
+![tart](/public/img/2025/20250126_swan.png)
 
 ### two problems and 99 of them are maths
 
@@ -33,15 +33,15 @@ Here I come, you can't hide.
 
 It is a good chance for me to relearn some learning and get back to the rocket. Take it slowly. Easy does it, one day at a time.
 
-![see you at 440](/src/assets/2025/david.lynchopy.png)
+![see you at 440](/public/img/2025/david.lynchopy.png)
 
 Thanks to everyone who has supported the Orange Sky 'walk-a-thon' good to see them out and about, you know they are really doing the work and not just talking a big game. ❤️
 
-[![orange sky](/src/assets/2025/james-1.jpg)](https://www.walkthewalk.org.au/fundraisers/jamesthompson)
+[![orange sky](/public/img/2025/james-1.jpg)](https://www.walkthewalk.org.au/fundraisers/jamesthompson)
 
 Much love.
 
-![clams](/src/assets/2025/clams.png)
+![clams](/public/img/2025/clams.png)
 
 ### fuck sake
 

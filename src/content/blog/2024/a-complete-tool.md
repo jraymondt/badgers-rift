@@ -16,7 +16,7 @@ Good question, I will let you do your own research, I am not a science.
 Jimbob is an alcoholic though, one that wants to get better.
 LFG
 
-![fucking ads](/src/assets/img/2024/priest_waiting.jpg)
+![fucking ads](/public/img/2024/priest_waiting.jpg)
 
 FFFFFFFFFFFFFFFFFUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
 
@@ -41,7 +41,7 @@ I think I was seriously considering calling in dead at one point, amongst other 
 Anyway..
 I need to get ready for my first attempt at hosting the online Daily Reflection.
 
-![HAM](/src/assets/img/2024/ham.jpg)
+![HAM](/public/img/2024/ham.jpg)
 
 Scene on William St
 
@@ -49,7 +49,7 @@ Scene on William St
 
 Then there is this shit I did after the meeting I hosted, this was my attempt to de-stress.
 
-![keto friends](/src/assets/img/2024/nice_coal.png)
+![keto friends](/public/img/2024/nice_coal.png)
 
 Not sure why I feel so stressed, nobody fell from a cliff, although I had my suspiciouns.
 The lack of sleep is definately caught up this time, I need a rest.

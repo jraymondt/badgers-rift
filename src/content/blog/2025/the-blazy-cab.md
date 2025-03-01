@@ -2,7 +2,7 @@
 title: this title can get knotted
 description: so can your felt tipped choc mint spotted dick
 pubDate: 2025-01-09
-heroImage: '/blog-placeholder-4.jpg'
+heroImage: '/public/img/2025/cownan_the_bovarian.png'
 tags:
   - tool
   - cruxify
@@ -18,15 +18,13 @@ It really is a load of old biscuits up on cinderblocks in the blazing Augustine 
 
 In this episode of Cownan the Bovarian a slug. Go fuck a rusty meat-hook.
 
-![honesty](/src/assets/img/2025/cownan_the_bovarian.png)
-
 ### to the untrained eye
 
 This post does appear somewhat unhinged, really, I just need a nap, 40 silk weaving moffas and a tall glass of Shetland-corgi.
 
 ### bullshit
 
-![the steaks were so high](/src/assets/img/2025/steak_deeznutz.jpg)
+![the steaks were so high](/public/img/2025/steak_deeznutz.jpg)
 
 I don't care which corner of our beautifully crafted, bespoke, flat-globe you are from, that is a fucking bull!
 

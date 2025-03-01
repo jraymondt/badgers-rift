@@ -18,7 +18,7 @@ the Mexican border are after me, or so it would seem.
 I should have saved the Tarot one in particular, there was threats of witchcraft.
 So if there are any local witches, I may need to counselling and/or a protection spell.
 
-![duck graf](/src/assets/img/2024/duckgraf.jpg)
+![duck graf](/public/img/2024/duckgraf.jpg)
 
 ### a-fib
 
@@ -26,6 +26,6 @@ Speaking of duckgraphy high, I am off to my first psychology appointment today.
 After 45 years of existence I might actually be ready.
 Strap in team, we are going to water the weeds with electrolytes.
 
-![weeds](/src/assets/img/2024/weedsandweet.jpg)
+![weeds](/public/img/2024/weedsandweet.jpg)
 
 What the fuck is a charlie-horse?

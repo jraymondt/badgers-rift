@@ -36,7 +36,7 @@ Ohhhhh tooth tooth
 
 Cutting back the barnacles, sleeping with a Lions Tooth, I'm not sure where I was going with that, please mail your completed sentences to locked bag 6969 NoiceSloice metadata lane.
 
-![FURRIES](/src/assets/img/2024/furry_power.jpg)
+![FURRIES](/public/img/2024/furry_power.jpg)
 
 Try not to think too hard about that one, you will only hurt others with your vicious mind-control virus, lord knows I have.
 

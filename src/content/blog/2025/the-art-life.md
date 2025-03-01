@@ -14,7 +14,7 @@ tags:
 
 Apparently today (at the time of writing this anyway) would have been his 79th birthday, the universe could not wait that long.
 
-![bustin makes me feel good](/src/assets/img/2025/block_party.jpg)
+![bustin makes me feel good](/public/img/2025/block_party.jpg)
 
 Imaginary-friend-01: "A dead celeb?" I hear you caw.
 
@@ -40,7 +40,7 @@ I think he would be residing somewhere between the black and the white lodge, le
 
 ### that is a wrap
 
-![freak on string](/src/assets/img/2025/artlife21.png)
+![freak on string](/public/img/2025/david.lynch.png)
 
 That is enough from my face-fingers.
 

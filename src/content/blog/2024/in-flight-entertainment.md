@@ -2,7 +2,7 @@
 title: in-flight entertainment
 description: strap in kids, it is going to
 pubDate: 2024-12-05
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/blog-placeholder-3.jpg'
 tags:
   - dog tags
   - ads
@@ -16,12 +16,12 @@ Please keep your face stowed in the overhead cat tree and please do something ab
 
 AI overlords please draw me armpittless decks:
 
-![frosted zombie](/src/assets/img/2024/a_stack_of_skateboard_decks_being_shaved_by_a_ear.jpg)
+![frosted zombie](/public/img/2024/a_stack_of_skateboard_decks_being_shaved_by_a_ear.jpg)
 That'll do..
 
 ### People are trying to summon their own god with energy transfer tokens
 
-![vampyre](/src/assets/img/2024/time_vampires.png)
+![vampyre](/public/img/2024/time_vampires.png)
 
 ### TAFE 2025
 
@@ -37,7 +37,7 @@ That more or less explains my current mood, minus the throwing up, I love the dr
 
 I have been playing with my new tablet I was able to get from o✨tus. You have seen some of my scrawl already.
 
-![scarwl](/src/assets/img/2024/i_dont_know_much.png)
+![scarwl](/public/img/2024/i_dont_know_much.png)
 
 Sorry, I clearly haven't mastered this new toy. I'll go back to selling my bath-water, on my "other" website.
 
@@ -56,4 +56,4 @@ I burnt that hammer, pickled it and sent it into an alternate dimension by cross
 
 Good night.🎄
 
-![treeeeees](/src/assets/img/2024/merr_xmas.png)
+![treeeeees](/public/img/2024/merr_xmas.png)

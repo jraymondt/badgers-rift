@@ -2,7 +2,7 @@
 title: the desperate experiment of the first blog
 description: so, you think you can blog?
 pubDate: 2024-10-25
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/blog-placeholder-5.jpg'
 tags:
   - program
   - first
@@ -19,7 +19,7 @@ So, we went for a walk through Karrgatup(Kings Park), I noted somewhere during t
 - That is not lost enough. 𐄂
 - Goodbye 🗸
 
-![Perth](/PXL_20241023_karrgatup.jpg)
+![Perth](/public/img/2024/karrgatup_seeds.jpg)
 
 ### hmmm still here?
 

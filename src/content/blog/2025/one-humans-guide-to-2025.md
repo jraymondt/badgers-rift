@@ -56,4 +56,4 @@ Find the right people, find the right homegroup, find the right meeting, even if
 
 Thank you for getting [this](https://music.youtube.com/watch?v=Beboh8Azuuo&si=xqV7ZLpwfbRiHHcK) far. Oh was not expecting MC Conrad, Rest in Peace sir. Oh, it does say "vocal mix".
 
-![father lassagne](/src/assets/img/2025/father_lasagne.png)
+![father lassagne](/public/img/2025/father_lasagne.png)

@@ -2,7 +2,7 @@
 title: what is the x (x-rayvision (o.o)) in mdx
 description: all this and more, coming up
 pubDate: 2024-10-26
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/blog-placeholder-4.jpg'
 tags:
   - markdown
   - TIL
@@ -13,7 +13,7 @@ tags:
 
 I was able to get some clothes and food with my birthday money and gifts, very grateful for all the support in the world.
 
-![Porkbelly SupA beautiful sunset](/src/assets/img/2024/foodie.jpg)
+![Porkbelly SupA beautiful sunset](/public/img/2024/foodie.jpg)
 
 1. This is the rear of the ship, you aren't allowed in here.
 
@@ -36,7 +36,7 @@ Not going to lie ~~b0b knows~~ lord knows what I am ==doing==
 - [x] trampled the undead
 - [x] uni-tard
 - [ ] pygmy forest dongs :tent:
-      ![Nordlys logo](/src/assets/img/2024/thatwasmythought.jpg)
+      ![Nordlys logo](/public/img/2024/thatwasmythought.jpg)
 
 ### Images in MDX it's probably extended, it's always extended with these computer guys
 
