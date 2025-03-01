@@ -44,7 +44,7 @@ Kerry will very kindly guide you if you get stuck, or prompt you with questions 
 
 ### Location
 
-![radio fremantle](/public/img/2025/radio_fremantle.png)
+![radio fremantle](/img/2025/radio_fremantle.png)
 
 Unit 4/153 Rockingham Rd, Hamilton Hill
 

@@ -23,13 +23,13 @@ edit: I survived the radio [30/12/2024@1230](https://radiofremantle.com.au/shows
 
 - [AA 24 Hour Help Line](tel:1300222222)
 
-![I am a stupid head](/public/img/2024/duckjokes.jpg)
+![I am a stupid head](/img/2024/duckjokes.jpg)
 
 ### So, this is Christmas
 
 Play it again Sammy and stick another duck in the oven.
 
-![happy](/public/img/2024_xmas.jpg)
+![happy](/img/2024_xmas.jpg)
 
 ### My ordinary story, featuring extraordinary people who tolerated my shit for quite a while
 
@@ -108,4 +108,4 @@ In 2024: Today, an A.A. presence can be found in approximately 180 nations world
 
 [AA Australia 24 Hour Chat](https://aa.org.au)
 
-![Rinsletown 2024 at the Rosemount](/public/img/2024_rinsle_hornet_frantik_packer.png)
+![Rinsletown 2024 at the Rosemount](/img/2024_rinsle_hornet_frantik_packer.png)

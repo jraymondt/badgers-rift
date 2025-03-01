@@ -33,7 +33,7 @@ HEAD is now at f2f6e44 another update and reduced size of pics
 ## honour among thieves
 
 This gratitude was brought to you by God, if you have a problem with that, that is ok, I understand, but this is my reality now and that is why I had to wake upon praying to do thy will at 0200:
-![hugh grant](/public/img/2024/honour-among-thieves.jpg)
+![hugh grant](/img/2024/honour-among-thieves.jpg)
 
 ## the remains of our love
 
@@ -63,7 +63,7 @@ On the way to our new life in the country
 
 ## fair bridge to freedom
 
-![fair bridge to freedo](/public/img/2024/fairbridge.jpg)
+![fair bridge to freedo](/img/2024/fairbridge.jpg)
 
 Don't panic about the song lyrics, I am going to Fairbridge though thank _god_ and my sponsor, fairbridge village year 7 camp was one of the last times I got up in front of a crowd with my friend Dean and did something truly enjoyable [possibly funny] in front of my peers, South Lake primary beat the fuck out of me, I hated that place with a passion, I got punched in the back of the head for no reason one day, I have never had to fight so hard to survive than I did there, I am only just realising that now as I type.
 
@@ -181,6 +181,6 @@ But don't bring Lisa
 
 Fuck, ok. I think I know why this song was in my head. Love you all, honestly. -jimbob
 
-[![The moment of clarity](/public/img/2024/1984TheProAndConsOfHitchHiking.png)](https://tidal.com/browse/track/542628?u)
+[![The moment of clarity](/img/2024/1984TheProAndConsOfHitchHiking.png)](https://tidal.com/browse/track/542628?u)
 
 Thank you

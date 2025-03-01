@@ -2,7 +2,7 @@
 title: this title can get knotted
 description: so can your felt tipped choc mint spotted dick
 pubDate: 2025-01-09
-heroImage: '/public/img/2025/cownan_the_bovarian.png'
+heroImage: '/img/2025/cownan_the_bovarian.png'
 tags:
   - tool
   - cruxify
@@ -24,7 +24,7 @@ This post does appear somewhat unhinged, really, I just need a nap, 40 silk weav
 
 ### bullshit
 
-![the steaks were so high](/public/img/2025/steak_deeznutz.jpg)
+![the steaks were so high](/img/2025/steak_deeznutz.jpg)
 
 I don't care which corner of our beautifully crafted, bespoke, flat-globe you are from, that is a fucking bull!
 

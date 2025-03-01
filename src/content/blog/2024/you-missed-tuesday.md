@@ -54,12 +54,12 @@ I am a free and open book come at me! @#%&$
 
 ### Second
 
-![perspective](/public/img/2024/mynextproject.jpg)
+![perspective](/img/2024/mynextproject.jpg)
 
 ### HOOFSTICK
 
 I went to an Auction with a friend, there was some wild shit there.
 Yes is a HOOFSTICK what of it!@?
-![hoof stick](/public/img/2024/hoofstick.jpg)
+![hoof stick](/img/2024/hoofstick.jpg)
 
 Happy Birthday Uncle.

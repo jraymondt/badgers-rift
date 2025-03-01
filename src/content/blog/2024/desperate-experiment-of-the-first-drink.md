@@ -19,7 +19,7 @@ So, we went for a walk through Karrgatup(Kings Park), I noted somewhere during t
 - That is not lost enough. 𐄂
 - Goodbye 🗸
 
-![Perth](/public/img/2024/karrgatup_seeds.jpg)
+![Perth](/img/2024/karrgatup_seeds.jpg)
 
 ### hmmm still here?
 
