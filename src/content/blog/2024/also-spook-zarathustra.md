@@ -33,7 +33,7 @@ some people, that must be a bit shit.
 
 ### this is what facebook looks like
 
-![dooble trooble](@/assets/scamtast.jpg)
+![dooble trooble](/src/assets/img/2024/scamtast.jpg)
 
 ### dooble trooble
 
@@ -43,5 +43,5 @@ Again, come at me!!
 I will disable you with kindness and or random shit.
 
 [Take care, take care, take care](https://www.youtube.com/watch?v=P4qJubd1haw)
-![kill with kindness or just kill](@/assets/killwithkindness.jpg)
+![kill with kindness or just kill](/src/assets/img/2024/killwithkindness.jpg)
 I guess I need to fix the new buddy logo on the navbar, not sure what is going on there.

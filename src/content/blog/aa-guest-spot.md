@@ -1,14 +1,12 @@
 ---
-title: real information for real people
-description: information for Monday Health Scene AA guest spot on Radio Fremantle
-pubDate: 2025-01-01
+title: 'Radio Fremantle - AA '
+description: 'Info for Speaker'
+pubDate: '01 March 2025'
 heroImage: '/blog-placeholder-3.jpg'
 tags:
-  - twenty-five
-  - radio
-  - fremantle
-  - AA
-  - Alcoholics-Anonymous
+- Fremantle
+- radio
+- health-scene
 ---
 
 ## Radio Fremantle – Guest Spot
@@ -27,7 +25,7 @@ Approximately 10 – 15 minutes on Air, usually Airing at 1230 on Mondays
 
 #### AA
 
-These contact deatails are one of the main objectives of getting the message out there, if you don't casually segway them into your story Kerry will prompt you for them at the end.
+These contact details are one of the main objectives of getting the message out there, if you don't casually segway them into your story Kerry will prompt you for them at the end.
 
 AA: 24/7 helpline [1300 222 222](tel:1300222222)
 
@@ -44,7 +42,7 @@ Kerry will very kindly guide you if you get stuck, or prompt you with questions 
 
 ### Location
 
-![radio fremantle](/src/assets/img/2025/radio_fremantle.png)
+![Radio Fremantle](/src/assets/img/2025/radio_fremantle.png)
 
 Unit 4/153 Rockingham Rd, Hamilton Hill
 
@@ -66,11 +64,13 @@ Some knowledge of AA history could be applied and if you read the AA preamble th
 
 ### AA Contact details
 
-Tell listeners how to contact AA: 24/7 helpline [1300 222 222](tel:1300222222)
+Kerry should ask at the end for AA contact details
+
+AA 24/7 helpline [1300 222 222](tel:1300222222)
 
 Local number [08 9325 3566](tel:0893253566)
 
-[https://aa.org.au](https://aa.org.au)
+Volunteers on Internet Chat [https://aa.org.au](https://aa.org.au)
 
 If you forget the contact details Kerry will remind you at the end of the conversation
 

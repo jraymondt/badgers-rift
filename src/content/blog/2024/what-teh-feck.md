@@ -15,11 +15,11 @@ tags:
 
 That is what she said, before plunging a knife into a wet bowl of ham.
 
-![ham](@/assets/subi_party.jpg)
+![ham](/src/assets/img/2024/subi_party.jpg)
 
 So, here we are missing blog dates and generally struggling. I am fine, it can't rain all the time. I have been trying another framework? I guess [hexo](https://hexo.io), you know the one right? I thought so. I hit some snags and ended up playing [Once Human](https://www.oncehuman.game/) for a bit, I might go back to that while I wait for my brain to wind-down to a slow whhhiiirrrrrrr-bzzzzz-bopp.
 
-![so yeah](@/assets/SPAA.jpg)
+![so yeah](/src/assets/img/2024/SPAA.jpg)
 
 ### MA-LAYZ
 

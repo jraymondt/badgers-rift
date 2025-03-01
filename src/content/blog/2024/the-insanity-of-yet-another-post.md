@@ -17,9 +17,9 @@ I will fix this Devile picture(oh good I think I have broken them all now) when 
 
 Or maybe later tonight.
 
-![old mate and is rapey mastk](@/assets/20241026_skinnnnnnnt.jpg)
+![old mate and is rapey mastk](/src/assets/img/20241026_skinnnnnnnt.jpg)
 
-![thank james](@/assets/2024-10-26_01-39-thanks%20james.jpg)
+![thank james](/src/assets/img/2024-10-26_01-39-thanks%20james.jpg)
 
 ### The not so sane
 
@@ -32,7 +32,7 @@ others in and around my recovery is for the best
 
 ### Holloween
 
-![Halloween in Colour](@/assets/2024-10-26_01-39-colourween.jpg)
+![Halloween in Colour](/src/assets/img/2024-10-26_01-39-colourween.jpg)
 There was also people doing the Halloween.
 Oh! Just wrote down a bob quote for new website ideas.
 

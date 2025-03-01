@@ -9,7 +9,7 @@ tags:
 
 This post provides a quick overview of image and Open Graph image usage in Nordlys. For more detailed information on how Astro handles images, please [consult the documentation](https://docs.astro.build/en/guides/images/).
 
-import logo from '@/assets/logo.svg'
+import logo from '/src/assets/img/2024/logo.svg'
 import { Image } from 'astro:assets'
 
 ## Embedding images
@@ -21,14 +21,14 @@ Astro, and by extension Nordlys, offers various ways to use images in your conte
 In all Markdown (`.md`) files, images can be embedded using the usual syntax. Astro will resolve local assets as the image source.
 
 ```markdown src/content/posts/my-post.md
-![Nordlys logo](@/assets/logo.svg)
+![Nordlys logo](/src/assets/img/2024/logo.svg)
 or
 ![Nordlys logo](../../assets/logo.svg)
 or
 ![Nordlys logo](src/assets/logo.svg)
 ```
 
-![Nordlys logo](@/assets/logo.svg)
+![Nordlys logo](/src/assets/img/2024/logo.svg)
 
 ### Images in MDX
 
@@ -36,7 +36,7 @@ In Astro (`.astro`) or MDX (`.mdx`) files, you can also use Astro's built-in `<I
 
 ```astro src/pages/my-page.astro
 ---
-import logo from '@/assets/logo.svg'
+import logo from '/src/assets/img/2024/logo.svg'
 import { Image } from 'astro:assets'
 ---
 
@@ -60,7 +60,7 @@ From the web:
 Images and image URLs can be used in frontmatter, for instance as `openGraphImage`. To use a local asset, use:
 
 ```md src/content/posts/my-post.md
-openGraphImage: "@/assets/logo.svg"
+openGraphImage: "/src/assets/img/2024/logo.svg"
 or
 openGraphImage: "../../assets/logo.svg"
 or

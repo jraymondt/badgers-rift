@@ -18,7 +18,7 @@ It really is a load of old biscuits up on cinderblocks in the blazing Augustine 
 
 In this episode of Cownan the Bovarian a slug. Go fuck a rusty meat-hook.
 
-![honesty](@/assets/2025/cownan_the_bovarian.png)
+![honesty](/src/assets/img/2025/cownan_the_bovarian.png)
 
 ### to the untrained eye
 
@@ -26,7 +26,7 @@ This post does appear somewhat unhinged, really, I just need a nap, 40 silk weav
 
 ### bullshit
 
-![the steaks were so high](@/assets/2025/steak_deeznutz.jpg)
+![the steaks were so high](/src/assets/img/2025/steak_deeznutz.jpg)
 
 I don't care which corner of our beautifully crafted, bespoke, flat-globe you are from, that is a fucking bull!
 

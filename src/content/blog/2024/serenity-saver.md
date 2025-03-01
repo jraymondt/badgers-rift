@@ -14,7 +14,7 @@ tags:
 
 So yesterday was a new thing at the beach, I was able to meditate in the grass and listen to natures meditation app, that is, just listening. Also, the ocean noises were pretty great. HOWSTHESERENITY - also fucking great.
 
-![Serene Pristine](@/assets/peekarock.jpg)
+![Serene Pristine](/src/assets/img/2024/peekarock.jpg)
 
 I was able to meditate for 20 mins this morning, when I open my eyes I was staring a my screen saver, which ahhh, you had to be there I guess.
 
@@ -22,7 +22,7 @@ I am now healed, praise Allah.
 
 ### pristine
 
-![blob](@/assets/blobatthebeech.jpg)
+![blob](/src/assets/img/2024/blobatthebeech.jpg)
 
 Schema foundations interview went swimmingly? who knows, I probably won't drown at least, got myself some floaties.
 
@@ -30,6 +30,6 @@ Speaking of floaties and speaking, I am going to a thing: [WAPAA](https://wapaa.
 
 Stay floaty and have a nice weekend.
 
-![tap tap rock](@/assets/howstheserenity.jpg)
+![tap tap rock](/src/assets/img/2024/howstheserenity.jpg)
 
 > bob the destroyer of worlds
