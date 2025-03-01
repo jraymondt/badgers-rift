@@ -2,7 +2,7 @@
 title: good shit
 description: a very un-funny typo
 pubDate: 2025-02-06
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: '/blog-placeholder-2.jpg'
 tags:
   - fibs
   - typos
