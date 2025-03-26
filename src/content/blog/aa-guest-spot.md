@@ -9,11 +9,11 @@ tags:
 - health-scene
 ---
 
-## Radio Fremantle – Guest Spot
+## Radio Fremantle
 
-### Service Position Interviewee
+### Guest Spot your story, experience, strength and hope
 
-Approximately 10 – 15 minutes on Air, usually Airing at 1230 on Mondays
+Approximately 10 – 15 minutes on Air, at 1230pm on Almost every Monday with Kerry on the Health Scene show.
 
 ### Who
 
@@ -55,6 +55,12 @@ OR
 Interview via phone [Telephone: 08 9494 2100](tel:0894942100) phone in at 1230
 
 Sobriety _recommended_ 1+ years – No swearing. We are not a preacher or a teacher.
+
+### Previous Shares
+
+[Link to the whole Health Scene show, skip to 1hr30mins to hear previous shares](https://radiofremantle.com.au/shows/health-scene)
+
+This is to help if you are unsure of how it might pan out.
 
 ### Preparation required
 
