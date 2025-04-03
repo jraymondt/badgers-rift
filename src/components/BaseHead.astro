@@ -1,18 +1,29 @@
 ---
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
+import type { CollectionEntry } from 'astro:content';
 import '../styles/global.css';
 import { SITE_TITLE } from '../consts';
 
-interface Props {
+//type Props = CollectionEntry<'blog'>['data'];
+
+//interface Props {
+//	title: string;
+//	description: string;
+//	image?: string;
+//	heroImage?: string;
+//}
+
+type Props = CollectionEntry<'blog'>['data'] & {
 	title: string;
 	description: string;
-	image?: string;
-}
+	heroImage?: string;
+ };
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-
-const { title, description, image = '/blog-placeholder-1.png' } = Astro.props;
+//const { title, description, heroImage, image } = Astro.props;
+// const displayImage = heroImage || image || '/blog-placeholder-1.png';
+const { title, description, heroImage} = Astro.props;
 ---
 
 <!-- Global Metadata -->
@@ -45,11 +56,13 @@ const { title, description, image = '/blog-placeholder-1.png' } = Astro.props;
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:image" content={heroImage ? new URL(heroImage, Astro.url) : '/blog-placeholder-1.png'} />
+<!-- {!heroImage && <meta property="og:image" content={new URL(image, Astro.url)} />} -->
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image, Astro.url)} />
+{heroImage && <meta property="twitter:image" content={new URL(heroImage, Astro.url)} />}
+<!-- <meta property="twitter:image" content={new URL(image, Astro.url)} /> -->

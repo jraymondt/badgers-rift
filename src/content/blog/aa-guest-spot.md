@@ -27,9 +27,9 @@ Approximately 10 – 15 minutes on Air, at 1230pm on Almost every Monday with Ke
 
 These contact details are one of the main objectives of getting the message out there, if you don't casually segway them into your story Kerry will prompt you for them at the end.
 
-AA: 24/7 helpline [1300 222 222](tel:1300222222)
+AA: 24/7 helpline [_1300 222 222](tel:1300222222)
 
-Local number [08 9325 3566](tel:0893253566)
+Local number [_08 9325 3566](tel:0893253566)
 
 [https://aa.org.au](https://aa.org.au)
 
@@ -40,7 +40,7 @@ Kerry - _note: Kerry is hearing impaired but wears devices. Kerry is a good frie
 Kerry runs the show ‘Health Scene’ from 1100 – 1300 on Mondays which this spot is a part of.
 Kerry will very kindly guide you if you get stuck, or prompt you with questions if you are short on time.
 
-### Location
+### Location, if you would like to do the spot in the studio
 
 ![Radio Fremantle](/img/2025/radio_fremantle.png)
 
@@ -52,7 +52,7 @@ Every Monday 1230 – arrive 10 minutes before airing time at 1220
 
 OR
 
-Interview via phone [Telephone: 08 9494 2100](tel:0894942100) phone in at 1230
+Interview via phone [Telephone: _08 9494 2100](tel:0894942100) phone in at 1230
 
 Sobriety _recommended_ 1+ years – No swearing. We are not a preacher or a teacher.
 
@@ -72,9 +72,9 @@ Some knowledge of AA history could be applied and if you read the AA preamble th
 
 Kerry should ask at the end for AA contact details
 
-AA 24/7 helpline [1300 222 222](tel:1300222222)
+AA 24/7 helpline [_1300 222 222](tel:1300222222)
 
-Local number [08 9325 3566](tel:0893253566)
+Local number [_08 9325 3566](tel:0893253566)
 
 Volunteers on Internet Chat [https://aa.org.au](https://aa.org.au)
 
