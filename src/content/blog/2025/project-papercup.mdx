@@ -1,0 +1,194 @@
+---
+title: cup-a-project
+description: shadows
+pubDate: 2025-05-07
+heroImage: '/img/2025/shadow_bun.png'
+tags:
+  - laravel
+  - tailwind
+  - TAFE
+  - project
+---
+##  Let's Fucking Good
+
+ just need to make a placeholder website using at least tailwind to demonstrate how the UI UX experience might be when we finally build it on laravel and tail wind, with some wordpress functionality later.
+ 
+ Lets start from the start, probably with laravel and tailwind, I need to get this done quickly.
+
+ 
+## Update the users table to include a role
+Add a role column to the users table to differentiate between teachers and students.
+
+Run the following command to create a migration:
+
+```bash
+php artisan make:migration add_role_to_users_table --table=users
+```
+
+Update the migration file:
+
+```php
+<?php
+public function up()
+{
+    Schema::table('users', function (Blueprint $table) {
+        $table->string('role')->default('student'); // Default role is 'student'
+    });
+}
+
+
+public function down()
+{
+    Schema::table('users', function (Blueprint $table) {
+        $table->dropColumn('role');
+    });
+}
+```
+Run the migration:
+
+```bash
+php artisan migrate
+```
+Seed users with roles:
+You can create a seeder to add test users for teachers and students.
+
+Run the following command:
+
+```bash
+php artisan make:seeder UserSeeder
+```
+
+Update the seeder:
+
+```php
+<?php
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
+
+public function run()
+{
+    User::create([
+        'name' => 'Teacher User',
+        'email' => 'teacher@xampler.com',
+        'password' => Hash::make('password'),
+        'role' => 'teacher',
+    ]);
+
+    User::create([
+        'name' => 'Student User',
+        'email' => 'student@xampler.com',
+        'password' => Hash::make('password'),
+        'role' => 'student',
+    ]);
+}
+```
+
+
+Run the seeder:
+
+```bash
+php artisan db:seed --class=UserSeeder
+```
+
+## Update authentication logic
+Modify the ==AuthenticatedSessionController== to redirect users based on their role.
+
+```php
+<?php
+// filepath: [AuthenticatedSessionController.php](http://_vscodecontentref_/0)
+public function store(LoginRequest $request): RedirectResponse
+{
+    $request->authenticate();
+    $request->session()->regenerate();
+
+    $role = $request->user()->role;
+
+    if ($role === 'teacher') {
+        return redirect()->route('teacher.dashboard');
+    } elseif ($role === 'student') {
+        return redirect()->route('student.dashboard');
+    }
+
+    return redirect()->route('home');
+}
+```
+
+## Create separate routes for teachers and students
+Update the ==web.php== routes file to define different landing pages.
+
+```php
+<?php
+// filepath: [web.php](http://_vscodecontentref_/1)
+use App\Http\Controllers\TeacherController;
+use App\Http\Controllers\StudentController;
+
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('/teacher/dashboard', [TeacherController::class, 'index'])->name('teacher.dashboard');
+    Route::get('/student/dashboard', [StudentController::class, 'index'])->name('student.dashboard');
+});
+```
+
+## Create controllers for teacher and student dashboards
+Run the following commands to create controllers:
+
+```bash
+php artisan make:controller TeacherController
+php artisan make:controller StudentController
+```
+
+Update the controllers:
+
+```php
+<?php
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class TeacherController extends Controller
+{
+    public function index()
+    {
+        return view('teacher.dashboard');
+    }
+}
+
+// filepath: app/Http/Controllers/StudentController.php
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class StudentController extends Controller
+{
+    public function index()
+    {
+        return view('student.dashboard');
+    }
+}
+```
+
+## Create views for teacher and student dashboards
+Create the following Blade files:
+
+```html
+<!-- filepath: resources/views/teacher/dashboard.blade.php -->
+<x-app-layout>
+    <h1>Welcome, Teacher!</h1>
+</x-app-layout>
+```
+
+```html
+<!-- filepath: resources/views/student/dashboard.blade.php -->
+<x-app-layout>
+    <h1>Welcome, Student!</h1>
+</x-app-layout>
+```
+
+## Test the implementation
+Login as a teacher (teacher@xampler.com) and ensure you are redirected to /teacher/dashboard.
+Login as a student (student@xampler.com) and ensure you are redirected to /student/dashboard.
+This setup ensures that teachers and students have distinct roles and landing pages.---
+
+## Next Steps 
+
+I'm not sure what kind of fucked up fever dream I wrote all this in so I am not going to delete it, I am still in the process of building this out, but I am going to start with a simple tailwind page that has a login and register form, and then I will build out the laravel backend to handle the authentication and role management.
+

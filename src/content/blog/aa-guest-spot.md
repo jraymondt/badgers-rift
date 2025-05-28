@@ -2,7 +2,7 @@
 title: 'Radio Fremantle - AA '
 description: 'Info for Speaker'
 pubDate: '01 March 2025'
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: '/img/2025/radio_fremantle_aa.png'
 tags:
 - Fremantle
 - radio
@@ -57,6 +57,8 @@ Interview via phone [Telephone: _08 9494 2100](tel:0894942100) phone in at 1230
 Sobriety _recommended_ 1+ years – No swearing. We are not a preacher or a teacher.
 
 ### Previous Shares
+
+This is the link to the entire Health Scene show that airs every monday at 1100 – 1300 AA speaker should be @90minute mark or there abouts:
 
 [Link to the whole Health Scene show, skip to 1hr30mins to hear previous shares](https://radiofremantle.com.au/shows/health-scene)
 
