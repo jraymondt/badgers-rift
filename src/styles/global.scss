@@ -206,7 +206,7 @@ CGA-style and pixel UI elements
 /* buttons are important*/
 
 .cga-button {
-    background-color: var(--cga-blue);
+    background-color: var(--cga-pink);
     color: var(--cga-white);
     border: none;
     padding: 0.5em 1em;
@@ -215,9 +215,8 @@ CGA-style and pixel UI elements
 }
 
 .cga-button:hover {
-    background-color: var(--cga-light-blue);
+    background-color: var(--cga-light-magenta);
 }
-
 
 // "pixelated" border button
 .pixel-border-button {
@@ -225,7 +224,7 @@ CGA-style and pixel UI elements
   $pixel-border-size: 2px; // How thick the "pixel" border is. 1px or 2px is common.
   
   // Using colors from your existing CGA palette
-  $face-color: var(--cga-blue);
+  $face-color: var(--cga-teal);
   $text-color: var(--cga-white);
   
   // Colors for the "lit" and "shadowed" edges

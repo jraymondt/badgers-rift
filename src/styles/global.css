@@ -215,7 +215,7 @@ CGA-style and pixel UI elements
 ******************************************************/
 /* buttons are important*/
 .cga-button {
-  background-color: var(--cga-blue);
+  background-color: var(--cga-pink);
   color: var(--cga-white);
   border: none;
   padding: 0.5em 1em;
@@ -224,7 +224,7 @@ CGA-style and pixel UI elements
 }
 
 .cga-button:hover {
-  background-color: var(--cga-light-blue);
+  background-color: var(--cga-light-magenta);
 }
 
 .pixel-border-button {
@@ -233,7 +233,7 @@ CGA-style and pixel UI elements
   margin: 2px;
   font-family: "IBM VGA", monospace;
   color: var(--cga-white);
-  background-color: var(--cga-blue);
+  background-color: var(--cga-teal);
   cursor: pointer;
   text-align: center;
   -webkit-user-select: none;

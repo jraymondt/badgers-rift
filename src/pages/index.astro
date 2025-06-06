@@ -4,11 +4,15 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
-
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead 
+		title={SITE_TITLE} 
+		description={SITE_DESCRIPTION}
+		pubDate={new Date('06 June 2025')}
+		heroImage="../../public/img/2025/pixel_20250204_galleria.png"
+		tags={["home, landing, intro, hello aliens"]} >
 	</head>
 	<body>
 		<Header />
