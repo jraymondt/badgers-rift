@@ -1,7 +1,7 @@
 {
-  "name": "badgers-rift",
+  "name": "badgers-perfection",
   "type": "module",
-  "version": "0.3.1",
+  "version": "0.6.22",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",

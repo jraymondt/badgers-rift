@@ -1,53 +1,79 @@
-
-$bg-dark: #112f41;
-$bg-light: #a1f1f7;
-$color-dark: #a1f1f7;
-$color-light: #000;
-$color-accent: #f26d34;
-$color-accent-dark: rgb(251, 110, 17);
-$color-gray: #7f6e6e92;
-$color-gray-dark: #333;
-$color-gray-light: #f2f2f2;
-$color-gray-gradient: rgba(242, 242, 242, 0.5), #fff;
-$box-shadow: 0 2px 6px rgba(96, 115, 159, 0.25), 0 8px 24px rgba(96, 115, 159, 0.33), 0 16px 32px rgba(96, 115, 159, 0.33);
-
 :root {
-	--accent: hwb(13 26% 4% / 0.915);
-	--accent-dark: hsla(6, 91%, 49%, 0.963);
-	--black: 15, 18, 25;
-	--gray: 96, 115, 159;
-	--gray-light: 229, 233, 240;
-	--gray-dark: 34, 41, 57;
-	--gray-gradient: rgba(var(--gray-light), 50%), #fff;
-	--box-shadow: 0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
-		0 16px 32px rgba(var(--gray), 33%);
+    /* Custom CGA-inspired pretty hate colors */
+    --cga-navy: #060a0b;
+    --cga-lilac: #ad97c6;
+    --cga-light-blue: #9dbfe5; 
+    --cga-teal: #678ba5;
+    --cga-pink: #c4519e;
+    
+    /* Standard CGA colors */
+    --cga-black: #000000;
+    --cga-blue: #0000AA;
+    --cga-green: #00AA00;
+    --cga-cyan: #00AAAA;
+    --cga-red: #AA0000;
+    --cga-magenta: #AA00AA;
+    --cga-brown: #AA5500;
+    --cga-light-gray: #AAAAAA; 
+    --cga-dark-gray: #555555;
+    --cga-std-light-blue: #5555FF; 
+    --cga-light-green: #55FF55;
+    --cga-light-cyan: #55FFFF;
+    --cga-light-red: #FF5555;
+    --cga-light-magenta: #FF55FF;
+    --cga-yellow: #FFFF55;
+    --cga-white: #FFFFFF;
+    --cga-gray-rgb-val: 127, 110, 126; // RGB part of #7f6e7e
+    --cga-gray-alpha-val: 0.57; // Alpha part of #7f6e7e92 (92 hex is 146 decimal, 146/255 ≈ 0.57)
+    --gray-gradient: rgba(var(--cga-light-gray-rgb), 0.5), #fff; // Uses --cga-light-gray-rgb: 170,170,170
+    --box-shadow: 0 2px 6px rgba(var(--cga-gray-rgb-val), calc(var(--cga-gray-alpha-val) * 0.25)), 
+                  0 8px 24px rgba(var(--cga-gray-rgb-val), calc(var(--cga-gray-alpha-val) * 0.33)),
+                  0 16px 32px rgba(var(--cga-gray-rgb-val), calc(var(--cga-gray-alpha-val) * 0.33));
+
+    /* RGB versions for shadows and effects */
+    --cga-light-gray-rgb: 170, 170, 170; 
+    --cga-custom-light-blue-rgb: 157, 191, 229; 
+    --cga-lilac-rgb: 173, 151, 198;
+
+	/* Responsive Typography */
+	--base-font-size: 2vmin;
+    --scale-ratio: 1.25;
+    --h1-size: calc(var(--base-font-size) * var(--scale-ratio) * var(--scale-ratio) * var(--scale-ratio));
+    --h2-size: calc(var(--base-font-size) * var(--scale-ratio) * var(--scale-ratio));
+    --h3-size: calc(var(--base-font-size) * var(--scale-ratio));
+    --body-size: var(--base-font-size);
+    --small-size: calc(var(--base-font-size) / var(--scale-ratio));
 }
+
+
 @font-face {
-	font-family: 'Atkinson';
-	src: url('/fonts/atkinson-regular.woff') format('woff');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
+    font-family: 'IBM VGA';
+    src: url('/public/fonts/IBM_VGA_8x16.woff') format('woff');
+    font-weight: 700; // Assuming IBM VGA is for headings/bold
+    font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
-	font-family: 'Atkinson';
-	src: url('/fonts/atkinson-bold.woff') format('woff');
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'VT323';
+  src: url('/public/fonts/VT323-Regular.ttf') format('ttf'); /* Or .ttf if you have that */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
+
 body {
-	font-family: 'Atkinson', sans-serif;
+	font-family: 'VT323', 'IBM DOS', monospace; // VT323 for body, IBM DOS as a similar fallback, then generic monospace
+	font-size: var(--body-size);
+    line-height: 1.5;
+    color: var(--cga-white);
+    background-color: var(--cga-navy);
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: black;
 	background-size: 100% 600px;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	color: #f26d34;
-	font-size: 20px;
-	line-height: 1.7;
 }
 main {
 	width: 720px;
@@ -60,36 +86,46 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.cga-button, 
+code, 
+pre {
+	font-family: 'IBM VGA', 'IBM DOS', monospace;
 	margin: 0 0 0.5rem 0;
 	color: #fff;
 	line-height: 1.2;
 }
 h1 {
-	font-size: 2.930rem;
+    font-size: var(--h1-size);
+    color: var(--cga-light-cyan);
 }
+
 h2 {
-	font-size: 2.333rem;
+    font-size: var(--h2-size);
+    color: var(--cga-light-blue);
 }
+
 h3 {
-	font-size: 1.953rem;
+    font-size: var(--h3-size);
+    color: var(--cga-cyan);
 }
-h4 {
-	font-size: 1.563rem;
-}
-h5 {
-	font-size: 1.25rem;
-}
-strong,
-b {
-	font-weight: 700;
-}
+
 a {
-	color: var(--accent);
+    color: var(--cga-light-magenta);
+    text-decoration: none;
 }
+
 a:hover {
-	color: var(--accent);
+    color: var(--cga-pink);
+    text-decoration: underline;
 }
+
+code, pre {
+    font-family: 'IBM VGA', monospace;
+    background-color: var(--cga-navy);
+    color: var(--cga-light-green);
+}
+
 p {
 	margin-bottom: 1em;
 }
@@ -144,7 +180,8 @@ hr {
 
 .title {
 	font-size: 2.221em;
-	color: #f26d34;
+	color: var(--cga-light-blue);
+	font-weight: 700;
 }
 .sr-only {
 	border: 0;
@@ -163,3 +200,195 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+/******************************************************
+CGA-style and pixel UI elements
+******************************************************/
+/* buttons are important*/
+
+.cga-button {
+    background-color: var(--cga-blue);
+    color: var(--cga-white);
+    border: none;
+    padding: 0.5em 1em;
+    font-family: 'IBM VGA8', monospace;
+    cursor: pointer;
+}
+
+.cga-button:hover {
+    background-color: var(--cga-light-blue);
+}
+
+
+// "pixelated" border button
+.pixel-border-button {
+  // --- Customizable Variables ---
+  $pixel-border-size: 2px; // How thick the "pixel" border is. 1px or 2px is common.
+  
+  // Using colors from your existing CGA palette
+  $face-color: var(--cga-blue);
+  $text-color: var(--cga-white);
+  
+  // Colors for the "lit" and "shadowed" edges
+  $highlight-edge-color: var(--cga-light-gray); // Light color for top and left edges
+  $shadow-edge-color: var(--cga-black);       // Dark color for bottom and right edges
+  
+  $hover-face-color: var(--cga-std-light-blue);
+  // When pressed, the face often darkens, and highlights/shadows invert
+  $active-face-color: var(--cga-dark-gray); // Or a darker shade of $face-color
+
+  // --- Button Styles ---
+  display: inline-block;
+  padding: 10px 20px; // Adjust padding as needed
+  margin: $pixel-border-size; // Add margin to prevent borders from overlapping if buttons are close
+
+  font-family: 'IBM VGA', monospace; // Consistent with your other button
+  color: $text-color;
+  background-color: $face-color;
+  cursor: pointer;
+  text-align: center;
+  user-select: none; // Prevents text selection
+
+  // The key part: actual border properties for the pixelated look
+  border-top: $pixel-border-size solid $highlight-edge-color;
+  border-left: $pixel-border-size solid $highlight-edge-color;
+  border-bottom: $pixel-border-size solid $shadow-edge-color;
+  border-right: $pixel-border-size solid $shadow-edge-color;
+
+  transition: background-color 0.1s ease-out, border-color 0.1s ease-out;
+
+  &:hover {
+    background-color: $hover-face-color;
+    // Optional: slightly change border colors on hover if desired
+    // border-top-color: lighten($highlight-edge-color, 5%);
+    // border-left-color: lighten($highlight-edge-color, 5%);
+  }
+
+  &:active {
+    background-color: $active-face-color;
+    
+    // "Press in" effect: Invert the border colors
+    border-top-color: $shadow-edge-color;
+    border-left-color: $shadow-edge-color;
+    border-bottom-color: $highlight-edge-color;
+    border-right-color: $highlight-edge-color;
+
+    // Optional: Slightly move the button content down and right to enhance the "pressed" feel
+    position: relative; // If not already set
+    top: 1px;
+    left: 1px;
+  }
+}
+
+
+// DOS button effect
+.pixel-art-button {
+  // Customizable variables for the pixel effect
+  $pixel-depth: 3px; // Defines the "thickness" or "depth" of the button's side/shadow
+  
+  // Using colors from your existing CGA palette
+  $button-face-color: var(--cga-blue);
+  $button-text-color: var(--cga-white);
+  $button-shadow-color: var(--cga-dark-gray); // The color of the "depth" or "shadow" layer
+  
+  $button-hover-face-color: var(--cga-std-light-blue); // Lighter blue for hover
+  $button-active-face-color: var(--cga-black); // Darker blue or black when pressed
+
+  display: inline-block;
+  position: relative; // Crucial for positioning the ::after pseudo-element
+  padding: 10px 20px;
+  // Add margin to account for the "depth" so it doesn't overlap adjacent elements
+  // or get cut off if the parent has overflow:hidden.
+  margin: $pixel-depth; 
+
+  font-family: 'IBM VGA', monospace; 
+  color: $button-text-color;
+  background-color: $button-face-color;
+  border: none; 
+  cursor: pointer;
+  text-align: center;
+  user-select: none; 
+  transition: transform 0.05s ease-out, background-color 0.1s ease-out; 
+
+  // The "shadow" or "depth" layer (the box layered underneath)
+  &::after {
+    content: '';
+    position: absolute;
+    // Positioned to create the bottom and right "sides" of the pixel block
+    top: $pixel-depth;
+    left: $pixel-depth;
+    width: 100%;
+    height: 100%;
+    background-color: $button-shadow-color;
+    z-index: -1; // Place it behind the main button content
+    transition: top 0.05s ease-out, left 0.05s ease-out; // For the active state press
+  }
+
+  &:hover {
+    background-color: $button-hover-face-color;
+    // Optional: Change shadow color on hover if desired
+    // &::after {
+    //   background-color: darken($button-shadow-color, 5%); // Example if $button-shadow-color was an SCSS color
+    // }
+  }
+
+  &:active {
+    // "Press down" effect:
+    // Move the button face to where the shadow was
+    transform: translate($pixel-depth, $pixel-depth);
+    background-color: $button-active-face-color;
+
+    // Make the shadow layer appear to be "gone" or "under" the pressed button
+    // by moving it along with the button face, effectively hiding its offset
+    &::after {
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+/* CGA Container Styles */
+.cga-container {
+    border: 2px solid var(--cga-light-gray);
+    background-color: var(--cga-navy);
+    padding: 1em;
+}
+
+
+/***************************************************
+CGA MONITOR SCANLINES  
+- The element itself should have `position: relative` (or `absolute`/`fixed`).
+  - It acts as the container for the scanlines.
+****************************************************/
+.cga-scanlines {
+  position: relative;
+  overflow: hidden; /* Keeps the scanlines within the container and prevents them from affecting other elements if the pseudo-element were to somehow overflow. */
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+      transparent 0px,
+      rgba(0, 0, 0, 0.2) 1px, 
+      transparent 2px
+    ); // Creates the scanline effect. Adjust the rgba alpha value for intensity.
+    pointer-events: none; // Ensures the overlay doesn't interfere with mouse events on the content below.
+  }
+}
+
+.cga-monitor {
+  position: relative;
+  border: 20px solid var(--cga-lilac);
+  border-radius: 10px;
+  box-shadow: 
+    0 0 25px 5px rgba(var(--cga-light-gray-rgb), 0.2), // A soft light gray glow
+    0 0 40px 10px rgba(var(--cga-custom-light-blue-rgb), 0.15), // A wider, fainter light blue glow
+    0 0 50px 15px rgba(var(--cga-lilac-rgb), 0.1); // A subtle lilac glow matching the border
+  overflow: hidden;
+  background-color: var(--cga-black); // Ensure monitor screen area is dark
+  padding: 20px; // Add some padding inside the monitor
+}
+

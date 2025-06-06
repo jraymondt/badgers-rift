@@ -1,118 +1,46 @@
-Roboto Variable Font
-====================
 
-This download contains Roboto as both variable fonts and static fonts.
+           _ ─ --- ─                  _ ─ --- ─
+        .∙"    ,┬,   ~=╥_    .∙.   .∙"          ~=╥_
+      .    . .OZZZO╕    ^g,      .    .■°~°■.      ^%╖   .s%ZO┐
+          `  └ªqZpª' °∙  `Z,         `        _.,·  `gZ┐  ∙:ZZ|
+      _┬g%%oc,  ~ _.,  `  ╘Z;         _.,┬⌐y%Z=-:· .s%Z%L, `OZZYi%g┬_
+     jOZZÿÿZZOL· jOZZÿ¬,  `Zb  _.┬⌐y%ZZZZZZZZ%=:∙ jZZZZZZZb `ZZZZÿZZZb
+    ∙ZZ?~ ~\ZZZ| |¢ZZZZO\ ·?Z.∙%ÿZZZZZZª*╩ⁿ^°"`' /ZZª"~"ªZZ\ ∙T   ~!ZZ┤
+     Z6f   ∙ZZZO∙·|ZZZ^ZZi ]Z1·:-":ZZZ'      _. ∙OZ/     \ZZL :    |6Z'
+ .   `ZZ¬._ ~"^Z| ∙ZZZ;\ZZ ╞Z╡   ·¢ZZZ·  _┬%ZZ· l%! .oZo, ]ZZ·∙  _╥ZZ'   .
+  ,    ~^╩*╩^~.Z¢··ZZZl ZZ┬ZZ1 · ∙ZZZZ∙  ^ª!ZZ∙ :=l dZZZb ∙ZZ|  ~^"~
+   ∙        g%ZZZ··ZZZZ `¥ZZZ° : ·ZZZZ:   ∙lZZ| ∙;∙ :ZZZF ·ZZ|         .'
+    ~─_    ·ZZZZ| ∙ZZZZ  └ZZÿ' ∙  ?ZZZ!    :ZZ│· ·∙  "ª"  dZg·      _─~
+       ~"^ :ZZZO∙∙|ZZZ!   `^'  '  `¥ZZZ    ·ªZZ:  ·     ./ZZf ·─--`~
+           OZZZ∙ jZª╩~  `. _ _. .   ~^ªL, YZZZZOzz┬┬ ·∙:=CO/
+     -V!  jª╩^~     .     ~-║∙-~    .     `^╩ªZ¥ÿZF'·∙:%CG' . O R G
+                     ~─_    T    _─~             ~'  '^"~
+                        ~"═=|=═"~
+                            ∙        p r e s e n t s
+                            ·
 
-Roboto is a variable font with these axes:
-  wdth
-  wght
 
-This means all the styles are contained in these files:
-  Roboto-VariableFont_wdth,wght.ttf
-  Roboto-Italic-VariableFont_wdth,wght.ttf
+                   The Ultimate Oldschool PC Font Pack
 
-If your app fully supports variable fonts, you can now pick intermediate styles
-that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Roboto:
-  static/Roboto_Condensed-Thin.ttf
-  static/Roboto_Condensed-ExtraLight.ttf
-  static/Roboto_Condensed-Light.ttf
-  static/Roboto_Condensed-Regular.ttf
-  static/Roboto_Condensed-Medium.ttf
-  static/Roboto_Condensed-SemiBold.ttf
-  static/Roboto_Condensed-Bold.ttf
-  static/Roboto_Condensed-ExtraBold.ttf
-  static/Roboto_Condensed-Black.ttf
-  static/Roboto_SemiCondensed-Thin.ttf
-  static/Roboto_SemiCondensed-ExtraLight.ttf
-  static/Roboto_SemiCondensed-Light.ttf
-  static/Roboto_SemiCondensed-Regular.ttf
-  static/Roboto_SemiCondensed-Medium.ttf
-  static/Roboto_SemiCondensed-SemiBold.ttf
-  static/Roboto_SemiCondensed-Bold.ttf
-  static/Roboto_SemiCondensed-ExtraBold.ttf
-  static/Roboto_SemiCondensed-Black.ttf
-  static/Roboto-Thin.ttf
-  static/Roboto-ExtraLight.ttf
-  static/Roboto-Light.ttf
-  static/Roboto-Regular.ttf
-  static/Roboto-Medium.ttf
-  static/Roboto-SemiBold.ttf
-  static/Roboto-Bold.ttf
-  static/Roboto-ExtraBold.ttf
-  static/Roboto-Black.ttf
-  static/Roboto_Condensed-ThinItalic.ttf
-  static/Roboto_Condensed-ExtraLightItalic.ttf
-  static/Roboto_Condensed-LightItalic.ttf
-  static/Roboto_Condensed-Italic.ttf
-  static/Roboto_Condensed-MediumItalic.ttf
-  static/Roboto_Condensed-SemiBoldItalic.ttf
-  static/Roboto_Condensed-BoldItalic.ttf
-  static/Roboto_Condensed-ExtraBoldItalic.ttf
-  static/Roboto_Condensed-BlackItalic.ttf
-  static/Roboto_SemiCondensed-ThinItalic.ttf
-  static/Roboto_SemiCondensed-ExtraLightItalic.ttf
-  static/Roboto_SemiCondensed-LightItalic.ttf
-  static/Roboto_SemiCondensed-Italic.ttf
-  static/Roboto_SemiCondensed-MediumItalic.ttf
-  static/Roboto_SemiCondensed-SemiBoldItalic.ttf
-  static/Roboto_SemiCondensed-BoldItalic.ttf
-  static/Roboto_SemiCondensed-ExtraBoldItalic.ttf
-  static/Roboto_SemiCondensed-BlackItalic.ttf
-  static/Roboto-ThinItalic.ttf
-  static/Roboto-ExtraLightItalic.ttf
-  static/Roboto-LightItalic.ttf
-  static/Roboto-Italic.ttf
-  static/Roboto-MediumItalic.ttf
-  static/Roboto-SemiBoldItalic.ttf
-  static/Roboto-BoldItalic.ttf
-  static/Roboto-ExtraBoldItalic.ttf
-  static/Roboto-BlackItalic.ttf
+                < http://int10h.org/oldschool-pc-fonts/ >
 
-Get started
------------
+                          v2.2 // 2020-11-21
 
-1. Install the font files you want to use
+   ------------------------------------------------------------------------
+   
+   For documentation see the 'docs' folder or these pages:
+   
+      Readme:       < http://int10h.org/oldschool-pc-fonts/readme/ >
 
-2. Use your app's font picker to view the font family and all the
-available styles
+      Font list:    < http://int10h.org/oldschool-pc-fonts/fontlist/ >
 
-Learn more about variable fonts
--------------------------------
+   ------------------------------------------------------------------------
 
-  https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts
-  https://variablefonts.typenetwork.com
-  https://medium.com/variable-fonts
+   The Ultimate Oldschool PC Font Pack is licensed under a Creative Commons
+   Attribution-ShareAlike 4.0 International License.
 
-In desktop apps
+   You should have received a copy of the license along with this work. If
+   not, see < http://creativecommons.org/licenses/by-sa/4.0/ >.
 
-  https://theblog.adobe.com/can-variable-fonts-illustrator-cc
-  https://helpx.adobe.com/nz/photoshop/using/fonts.html#variable_fonts
+                                                        (c) 2016-2020 VileR
 
-Online
-
-  https://developers.google.com/fonts/docs/getting_started
-  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
-  https://developer.microsoft.com/en-us/microsoft-edge/testdrive/demos/variable-fonts
-
-Installing fonts
-
-  MacOS: https://support.apple.com/en-us/HT201749
-  Linux: https://www.google.com/search?q=how+to+install+a+font+on+gnu%2Blinux
-  Windows: https://support.microsoft.com/en-us/help/314960/how-to-install-or-remove-a-font-in-windows
-
-Android Apps
-
-  https://developers.google.com/fonts/docs/android
-  https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts
-
-License
--------
-Please read the full license text (OFL.txt) to understand the permissions,
-restrictions and requirements for usage, redistribution, and modification.
-
-You can use them in your products & projects – print or digital,
-commercial or otherwise.
-
-This isn't legal advice, please consider consulting a lawyer and see the full
-license for all details.

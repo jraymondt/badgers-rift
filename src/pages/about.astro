@@ -1,20 +1,30 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
+import { Image } from 'astro:assets';
+import aboutPageImage from '../../public/img/2025/clams.png';
 ---
 
 <Layout
-	title="what do?"
+	title="what do, misc and whats all this then?"
 	description="still here huh?"
-	pubDate={new Date('28 Feburary 2025')}
-	heroImage="/blog-placeholder-about.jpg"
+	pubDate={new Date('06 June 2025')}
+	heroImage="../../public/img/2025/pixel_20250204_galleria.png"
 	tags={["about"]}
 >
 <section>
-	<h2>How can I contact you?</h2>
-<p>Well, no chance there. I am not really <a href="mailto:flatline@jraymondt.com">reachable</a></p>
-<h3>Are you still in East London?</h3>
-<p>No I am not in East London. I was in East Perth once.</p>
-<p>This is embarssing, I don't know what to say.</p>
+	<h2>What is this website?</h2>
+	<p>I started this website as a way to constantly hone my webcrafting abilities since doing cert IV web dev in 2021, in 2025 I am back studying a Diploma of Front End Web Development. I am thouroughly enjoying my time learning. This website continues to evolve and serves as a creative outflow for whatever is filtered through my human experience. We will try to keep it creative.</p>
+	<h3>How can I contact you?</h3>
+	<p>Well, no chance there. I am not really <a href="mailto:flatline@jraymondt.com">reachable</a></p>
+	<h4>Are you still in East London?</h4>
+	<p>No I am not in East London. I was in East Perth once.</p>
+	<Image 
+			src={aboutPageImage} 
+			alt="not even sure" 
+			width={600} 
+			height={400}
+			format="webp"
+			quality={90} 
+	>
 </section>	
-
 </Layout>

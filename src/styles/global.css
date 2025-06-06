@@ -1,41 +1,73 @@
 :root {
-  --accent: hwb(13 26% 4% / 0.915);
-  --accent-dark: hsla(6, 91%, 49%, 0.963);
-  --black: 15, 18, 25;
-  --gray: 96, 115, 159;
-  --gray-light: 229, 233, 240;
-  --gray-dark: 34, 41, 57;
-  --gray-gradient: rgba(var(--gray-light), 50%), #fff;
-  --box-shadow: 0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
-  	0 16px 32px rgba(var(--gray), 33%);
+  /* Custom CGA-inspired pretty hate colors */
+  --cga-navy: #060a0b;
+  --cga-lilac: #ad97c6;
+  --cga-light-blue: #9dbfe5;
+  --cga-teal: #678ba5;
+  --cga-pink: #c4519e;
+  /* Standard CGA colors */
+  --cga-black: #000000;
+  --cga-blue: #0000AA;
+  --cga-green: #00AA00;
+  --cga-cyan: #00AAAA;
+  --cga-red: #AA0000;
+  --cga-magenta: #AA00AA;
+  --cga-brown: #AA5500;
+  --cga-light-gray: #AAAAAA;
+  --cga-dark-gray: #555555;
+  --cga-std-light-blue: #5555FF;
+  --cga-light-green: #55FF55;
+  --cga-light-cyan: #55FFFF;
+  --cga-light-red: #FF5555;
+  --cga-light-magenta: #FF55FF;
+  --cga-yellow: #FFFF55;
+  --cga-white: #FFFFFF;
+  --cga-gray-rgb-val: 127, 110, 126;
+  --cga-gray-alpha-val: 0.57;
+  --gray-gradient: rgba(var(--cga-light-gray-rgb), 0.5), #fff;
+  --box-shadow: 0 2px 6px rgba(var(--cga-gray-rgb-val), calc(var(--cga-gray-alpha-val) * 0.25)),
+                0 8px 24px rgba(var(--cga-gray-rgb-val), calc(var(--cga-gray-alpha-val) * 0.33)),
+                0 16px 32px rgba(var(--cga-gray-rgb-val), calc(var(--cga-gray-alpha-val) * 0.33));
+  /* RGB versions for shadows and effects */
+  --cga-light-gray-rgb: 170, 170, 170;
+  --cga-custom-light-blue-rgb: 157, 191, 229;
+  --cga-lilac-rgb: 173, 151, 198;
+  /* Responsive Typography */
+  --base-font-size: 2vmin;
+  --scale-ratio: 1.25;
+  --h1-size: calc(var(--base-font-size) * var(--scale-ratio) * var(--scale-ratio) * var(--scale-ratio));
+  --h2-size: calc(var(--base-font-size) * var(--scale-ratio) * var(--scale-ratio));
+  --h3-size: calc(var(--base-font-size) * var(--scale-ratio));
+  --body-size: var(--base-font-size);
+  --small-size: calc(var(--base-font-size) / var(--scale-ratio));
 }
 
 @font-face {
-  font-family: "Atkinson";
-  src: url("/fonts/atkinson-regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Atkinson";
-  src: url("/fonts/atkinson-bold.woff") format("woff");
+  font-family: "IBM VGA";
+  src: url("/public/fonts/IBM_VGA_8x16.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "VT323";
+  src: url("/public/fonts/VT323-Regular.ttf") format("ttf"); /* Or .ttf if you have that */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 body {
-  font-family: "Atkinson", sans-serif;
+  font-family: "VT323", "IBM DOS", monospace;
+  font-size: var(--body-size);
+  line-height: 1.5;
+  color: var(--cga-white);
+  background-color: var(--cga-navy);
   margin: 0;
   padding: 0;
   text-align: left;
-  background: black;
   background-size: 100% 600px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  color: #f26d34;
-  font-size: 20px;
-  line-height: 1.7;
 }
 
 main {
@@ -50,43 +82,45 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.cga-button,
+code,
+pre {
+  font-family: "IBM VGA", "IBM DOS", monospace;
   margin: 0 0 0.5rem 0;
   color: #fff;
   line-height: 1.2;
 }
 
 h1 {
-  font-size: 2.93rem;
+  font-size: var(--h1-size);
+  color: var(--cga-light-cyan);
 }
 
 h2 {
-  font-size: 2.333rem;
+  font-size: var(--h2-size);
+  color: var(--cga-light-blue);
 }
 
 h3 {
-  font-size: 1.953rem;
-}
-
-h4 {
-  font-size: 1.563rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-}
-
-strong,
-b {
-  font-weight: 700;
+  font-size: var(--h3-size);
+  color: var(--cga-cyan);
 }
 
 a {
-  color: var(--accent);
+  color: var(--cga-light-magenta);
+  text-decoration: none;
 }
 
 a:hover {
-  color: var(--accent);
+  color: var(--cga-pink);
+  text-decoration: underline;
+}
+
+code, pre {
+  font-family: "IBM VGA", monospace;
+  background-color: var(--cga-navy);
+  color: var(--cga-light-green);
 }
 
 p {
@@ -153,7 +187,8 @@ hr {
 }
 .title {
   font-size: 2.221em;
-  color: #f26d34;
+  color: var(--cga-light-blue);
+  font-weight: 700;
 }
 
 .sr-only {
@@ -173,4 +208,129 @@ hr {
           clip-path: inset(50%);
   /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
   white-space: nowrap;
+}
+
+/******************************************************
+CGA-style and pixel UI elements
+******************************************************/
+/* buttons are important*/
+.cga-button {
+  background-color: var(--cga-blue);
+  color: var(--cga-white);
+  border: none;
+  padding: 0.5em 1em;
+  font-family: "IBM VGA8", monospace;
+  cursor: pointer;
+}
+
+.cga-button:hover {
+  background-color: var(--cga-light-blue);
+}
+
+.pixel-border-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 2px;
+  font-family: "IBM VGA", monospace;
+  color: var(--cga-white);
+  background-color: var(--cga-blue);
+  cursor: pointer;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  border-top: 2px solid var(--cga-light-gray);
+  border-left: 2px solid var(--cga-light-gray);
+  border-bottom: 2px solid var(--cga-black);
+  border-right: 2px solid var(--cga-black);
+  transition: background-color 0.1s ease-out, border-color 0.1s ease-out;
+}
+.pixel-border-button:hover {
+  background-color: var(--cga-std-light-blue);
+}
+.pixel-border-button:active {
+  background-color: var(--cga-dark-gray);
+  border-top-color: var(--cga-black);
+  border-left-color: var(--cga-black);
+  border-bottom-color: var(--cga-light-gray);
+  border-right-color: var(--cga-light-gray);
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+.pixel-art-button {
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  margin: 3px;
+  font-family: "IBM VGA", monospace;
+  color: var(--cga-white);
+  background-color: var(--cga-blue);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  transition: transform 0.05s ease-out, background-color 0.1s ease-out;
+}
+.pixel-art-button::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--cga-dark-gray);
+  z-index: -1;
+  transition: top 0.05s ease-out, left 0.05s ease-out;
+}
+.pixel-art-button:hover {
+  background-color: var(--cga-std-light-blue);
+}
+.pixel-art-button:active {
+  transform: translate(3px, 3px);
+  background-color: var(--cga-black);
+}
+.pixel-art-button:active::after {
+  top: 0;
+  left: 0;
+}
+
+/* CGA Container Styles */
+.cga-container {
+  border: 2px solid var(--cga-light-gray);
+  background-color: var(--cga-navy);
+  padding: 1em;
+}
+
+/***************************************************
+CGA MONITOR SCANLINES  
+- The element itself should have `position: relative` (or `absolute`/`fixed`).
+  - It acts as the container for the scanlines.
+****************************************************/
+.cga-scanlines {
+  position: relative;
+  overflow: hidden; /* Keeps the scanlines within the container and prevents them from affecting other elements if the pseudo-element were to somehow overflow. */
+}
+.cga-scanlines::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(transparent 0px, rgba(0, 0, 0, 0.2) 1px, transparent 2px);
+  pointer-events: none;
+}
+
+.cga-monitor {
+  position: relative;
+  border: 20px solid var(--cga-lilac);
+  border-radius: 10px;
+  box-shadow: 0 0 25px 5px rgba(var(--cga-light-gray-rgb), 0.2), 0 0 40px 10px rgba(var(--cga-custom-light-blue-rgb), 0.15), 0 0 50px 15px rgba(var(--cga-lilac-rgb), 0.1);
+  overflow: hidden;
+  background-color: var(--cga-black);
+  padding: 20px;
 }/*# sourceMappingURL=global.css.map */

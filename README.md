@@ -4,26 +4,7 @@
 npm create astro@latest -- --template blog
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
-
-Features:
-
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+## structure
 
 ```text
 ├── public/
@@ -36,6 +17,34 @@ Inside of your Astro project, you'll see the following folders and files:
 ├── README.md
 ├── package.json
 └── tsconfig.json
+```
+
+## remind me how to git again
+
+```bash
+git checkout -b update-header
+```
+
+```bash
+git commit -m "Updated header to improve UX"
+```
+
+```bash
+git checkout main
+git merge update-header --ff
+```
+
+### or
+
+```bash
+git rebase main
+```
+
+### tag releases
+
+```bash
+git tag -a v1.2 -m "Version 1.2 release"
+git push origin v1.2
 ```
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
@@ -65,4 +74,4 @@ Check out [our documentation](https://docs.astro.build) or jump into our [Discor
 
 ## Credit
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+Astro template crew
