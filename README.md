@@ -22,7 +22,24 @@ npm create astro@latest -- --template blog
 ## remind me how to git again
 
 ```bash
-git checkout -b update-header
+# Quick daily workflow for solo development
+git add .
+git commit -m "Fix mobile header responsiveness"
+git push
+
+# For larger features, create a branch
+git checkout -b feature-name
+# ... make changes ...
+git add .
+git commit -m "Descriptive commit message"
+git checkout main
+git merge feature-name
+git push
+git branch -d feature-name
+
+# Emergency rollback if needed
+git log --oneline  # Find commit hash
+git revert <commit-hash>
 ```
 
 ```bash
