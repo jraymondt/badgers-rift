@@ -178,6 +178,14 @@ hr {
 	}
 }
 
+blockquote {
+  font-style: italic;
+  color: var(--cga-light-gray);
+  border-left: 4px solid var(--cga-light-blue);
+  padding-left: 1em;
+  margin: 1em 0;
+}
+
 .title {
 	font-size: 2.221em;
 	color: var(--cga-light-blue);
