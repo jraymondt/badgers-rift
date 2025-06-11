@@ -1,11 +1,16 @@
 ---
 import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, SITE_LOGO } from '../consts';
 ---
 
 <header>
     <nav>
-        <h2><a href="/">{SITE_TITLE}</a></h2>
+        <div class="logo-container">
+            <a href="/">
+                <img src={SITE_LOGO} alt="Badgers Perfection Logo" class="header-logo" />
+                <span class="site-title">{SITE_TITLE}</span>
+            </a>
+        </div>
         <div class="internal-links">
             <HeaderLink href="/">Home</HeaderLink>
             <HeaderLink href="/blog">Blog</HeaderLink>

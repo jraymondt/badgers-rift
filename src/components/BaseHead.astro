@@ -4,8 +4,6 @@ import type { CollectionEntry } from 'astro:content';
 import '../styles/global.css';
 import { SITE_TITLE } from '../consts';
 
-
-
 type Props = CollectionEntry<'blog'>['data'] & {
 	title: string;
 	description: string;
@@ -14,6 +12,7 @@ type Props = CollectionEntry<'blog'>['data'] & {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description, heroImage} = Astro.props;
+
 ---
 
 <!-- Global Metadata -->
@@ -47,7 +46,7 @@ const { title, description, heroImage} = Astro.props;
 <meta property="og:title" content={title}>
 <meta property="og:description" content={description}>
 <meta property="og:image" content={heroImage ? new URL(heroImage, Astro.url) : '/og-image.png'}> 
-<!-- {!heroImage && <meta property="og:image" content={new URL(image, Astro.url)} />} -->
+
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
@@ -55,4 +54,5 @@ const { title, description, heroImage} = Astro.props;
 <meta property="twitter:title" content={title}>
 <meta property="twitter:description" content={description}>
 {heroImage && <meta property="twitter:image" content={new URL(heroImage, Astro.url)} />}
-<!-- <meta property="twitter:image" content={new URL(image, Astro.url)}> -->
+<!--umami analytics - it's cool to hate on google now -->
+<script defer src="https://cloud.umami.is/script.js" data-website-id="a3215cf8-1365-4927-be82-fbffef4c4913"></script>

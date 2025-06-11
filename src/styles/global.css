@@ -44,14 +44,14 @@
 
 @font-face {
   font-family: "IBM VGA";
-  src: url("/public/fonts/IBM_VGA_8x16.woff") format("woff");
+  src: url("/fonts/IBM_VGA_8x16.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "VT323";
-  src: url("/public/fonts/VT323-Regular.ttf") format("ttf"); /* Or .ttf if you have that */
+  src: url("/fonts/VT323-Regular.ttf") format("ttf"); /* Or .ttf if you have that */
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -123,6 +123,205 @@ code, pre {
   color: var(--cga-light-green);
 }
 
+/****************************-*************************
+* *******************LOGO WRITER**********************
+*********************-********************************/
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.header-logo {
+  width: 40px; /* Adjust \*/
+  height: auto;
+}
+
+.site-title {
+  font-size: 2vmin;
+  color: var(--cga-light-blue);
+  text-decoration: none;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5em; /* Space between the logo and the site title */
+}
+
+.header-logo {
+  width: 40px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.site-title {
+  font-size: 4vmin; /* Responsive font size */
+  color: var(--cga-light-blue); /* Matches the CGA palette */
+  text-decoration: none; /* No underline */
+}
+
+.logo-container a {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Remove underline from the link */
+}
+
+/***************************************
+* *******************Nav Styles
+* *******************-*****************/
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin: 0;
+  padding: 0 1em;
+  background: var(--cga-black);
+  color: var(--cga-white);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.2em;
+  flex-shrink: 0;
+}
+
+h2 a,
+h2 a.active {
+  text-decoration: none;
+  color: var(--cga-light-blue);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+  gap: 1em;
+}
+
+.internal-links {
+  display: flex;
+  gap: 0.5em;
+  flex: 1;
+  justify-content: center;
+}
+
+nav a {
+  padding: 0.8em 0.5em;
+  color: var(--cga-light-gray);
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  color: var(--cga-light-cyan);
+  border-bottom-color: var(--cga-light-cyan);
+}
+
+nav a.active {
+  color: var(--cga-pink);
+  border-bottom-color: var(--cga-pink);
+}
+
+.social-links {
+  display: flex;
+  gap: 0.5em;
+  flex-shrink: 0;
+}
+
+.social-links a {
+  padding: 0.5em;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links svg {
+  transition: transform 0.2s ease;
+}
+
+.social-links a:hover svg {
+  transform: scale(1.1);
+}
+
+@media (max-width: 720px) {
+  header {
+    padding: 0 0.5em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .internal-links {
+    gap: 0.25em;
+  }
+  .social-links {
+    display: none;
+  }
+  nav a {
+    padding: 0.5em 0.25em;
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 480px) {
+  h2 {
+    font-size: 0.9em;
+  }
+  .internal-links {
+    gap: 0.1em;
+  }
+  nav a {
+    padding: 0.4em 0.2em;
+    font-size: 0.8em;
+  }
+}
+/**************************************
+* *******************Book Effect Styles
+<div class="blockquote">
+  <h2>Chapter 1: The Beginning</h2>
+  <p>
+    In the dark recesses of the universe, a small spark ignited the beginning of something extraordinary. This is the story of that spark, and the journey it undertook to illuminate the cosmos.
+  </p>
+  <p>
+    As the pages of this book unfold, you will discover the secrets of the universe, the mysteries of life, and the power of imagination.
+  </p>
+</div>
+**************************************/
+blockquote {
+  position: relative;
+  display: block;
+  background-color: var(--cga-light-gray); /* Subtle background */
+  color: var(--cga-black); /* Text color */
+  padding: 2vmin 3vmin; /* Inner spacing */
+  border: 0.25vmin solid var(--cga-dark-gray); /* Border for retro effect */
+  border-radius: 0.5vmin; /* Rounded corners */
+  box-shadow: 0 0.5vmin 0.75vmin rgba(0, 0, 0, 0.2), 0 0.125vmin 0.25vmin rgba(255, 255, 255, 0.1) inset; /* Subtle inset shadow */
+  text-align: left;
+  max-width: 60vmin; /* Limit width for readability */
+  margin: 2vmin auto; /* Center blockquote with vertical spacing */
+  font-style: italic;
+  line-height: 1.6; /* Improve readability */
+}
+blockquote h2 {
+  font-size: 1.5em; /* Responsive heading size */
+  margin-bottom: 1vmin; /* Spacing below the heading */
+  color: var(--cga-dark-blue); /* Heading color */
+}
+
+blockquote::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0px, rgba(0, 0, 0, 0.05) 2px, transparent 4px);
+  pointer-events: none;
+  z-index: 1;
+}
+
 p {
   margin-bottom: 1em;
 }
@@ -165,13 +364,6 @@ pre > code {
   all: unset;
 }
 
-blockquote {
-  border-left: 4px solid var(--accent);
-  padding: 0 0 0 20px;
-  margin: 0px;
-  font-size: 1.333em;
-}
-
 hr {
   border: none;
   border-top: 1px solid rgb(var(--gray-light));
@@ -199,14 +391,10 @@ hr {
   height: 1px;
   width: 1px;
   overflow: hidden;
-  /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
   clip: rect(1px 1px 1px 1px);
-  /* maybe deprecated but we need to support legacy browsers */
   clip: rect(1px, 1px, 1px, 1px);
-  /* modern browsers, clip-path works inwards from each corner */
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%);
-  /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
   white-space: nowrap;
 }
 
@@ -215,16 +403,21 @@ CGA-style and pixel UI elements
 ******************************************************/
 /* buttons are important*/
 .cga-button {
-  background-color: var(--cga-pink);
+  background-color: var(--cga-teal);
   color: var(--cga-white);
   border: none;
-  padding: 0.5em 1em;
+  padding: 1vmin 2vmin;
   font-family: "IBM VGA8", monospace;
+  font-size: 2vmin;
   cursor: pointer;
+  text-align: center;
+  transition: background-color 0.2s ease;
 }
-
 .cga-button:hover {
-  background-color: var(--cga-light-magenta);
+  background-color: var(--cga-light-blue);
+}
+.cga-button:active {
+  background-color: var(--cga-dark-gray);
 }
 
 .pixel-border-button {
@@ -247,6 +440,8 @@ CGA-style and pixel UI elements
 }
 .pixel-border-button:hover {
   background-color: var(--cga-std-light-blue);
+  border-top-color: #6fffff;
+  border-left-color: #6fffff;
 }
 .pixel-border-button:active {
   background-color: var(--cga-dark-gray);
@@ -289,6 +484,9 @@ CGA-style and pixel UI elements
 .pixel-art-button:hover {
   background-color: var(--cga-std-light-blue);
 }
+.pixel-art-button:hover::after {
+  background-color: #484848;
+}
 .pixel-art-button:active {
   transform: translate(3px, 3px);
   background-color: var(--cga-black);
@@ -312,7 +510,7 @@ CGA MONITOR SCANLINES
 ****************************************************/
 .cga-scanlines {
   position: relative;
-  overflow: hidden; /* Keeps the scanlines within the container and prevents them from affecting other elements if the pseudo-element were to somehow overflow. */
+  overflow: hidden;
 }
 .cga-scanlines::before {
   content: "";
