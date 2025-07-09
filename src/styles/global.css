@@ -33,7 +33,7 @@
   --cga-custom-light-blue-rgb: 157, 191, 229;
   --cga-lilac-rgb: 173, 151, 198;
   /* Responsive Typography */
-  --base-font-size: 2vmin;
+  --base-font-size: 2.25vmin;
   --scale-ratio: 1.25;
   --h1-size: calc(var(--base-font-size) * var(--scale-ratio) * var(--scale-ratio) * var(--scale-ratio));
   --h2-size: calc(var(--base-font-size) * var(--scale-ratio) * var(--scale-ratio));

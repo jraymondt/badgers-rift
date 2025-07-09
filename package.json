@@ -17,7 +17,7 @@
     "@philnash/astro-pagination": "^0.5.0",
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
-    "astro": "^5.8.0",
+    "astro": "^5.11.0",
     "fulldev-ui": "^0.6.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
