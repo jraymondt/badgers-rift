@@ -11,8 +11,8 @@
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",
     "@astrojs/react": "^4.3.0",
-    "@astrojs/rss": "^4.0.11",
-    "@astrojs/sitemap": "^3.4.0",
+    "@astrojs/rss": "^4.0.12",
+    "@astrojs/sitemap": "^3.4.1",
     "@astrojs/svelte": "^7.1.0",
     "@philnash/astro-pagination": "^0.5.0",
     "@types/react": "^19.0.12",
