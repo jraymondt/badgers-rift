@@ -148,7 +148,7 @@ Bertie Watts 🙏💖
 
 ### term
 
-```code
+```text
 
 11.2 Restrictions on Use by Children. Zoom is not intended for use by individuals under the age of sixteen (16) years old, unless it is through a School Subscriber (as defined in the Zoom Services Description) using Zoom for Education (K-12).
 

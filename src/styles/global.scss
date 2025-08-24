@@ -94,6 +94,9 @@ pre {
 	margin: 0 0 0.5rem 0;
 	color: #fff;
 	line-height: 1.2;
+  white-space: pre-wrap; /* Enables wrapping of long lines */
+  word-wrap: break-word; /* Ensures long words break to prevent overflow */
+  overflow-x: auto; /* Adds a horizontal scrollbar if wrapping isn't enough */
 }
 h1 {
     font-size: var(--h1-size);
