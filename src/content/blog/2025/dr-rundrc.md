@@ -53,60 +53,77 @@ It’s good to have one or more co-hosts to
 
 ### Allocate readers
 
-[Preamble - back of any Serenity      ->](https://www.aa.org/sites/default/files/literature/smf-92_en.pdf)
-[How it Works (pp. 58-60 Big Book)    ->](https://www.aa.org/sites/default/files/2021-11en_bigbook_chapt5.pdf)
-[Daily reflection, and first share    ->](https://www.aa.org/daily-reflections)
+1. [Preamble - back of any Serenity      ->](https://www.aa.org/sites/default/files/literature/smf-92_en.pdf)
+2. [How it Works (pp. 58-60 Big Book)    ->](https://www.aa.org/sites/default/files/2021-11en_bigbook_chapt5.pdf)
+3. [Daily reflection, and first share    ->](https://www.aa.org/daily-reflections)
 
 - Preamble:             _______________
 - How it Works:         _______________
 - Daily Reflection:     _______________
 
+## @ 0700
+
 - Welcome to the Perth Daily Reflection meeting of Alcoholics Anonymous - my name is JIM and I AM an alcoholic
 - This is a 30 min audio only meeting, 7AM AWST, 7 days a week
 - This group encourages attendance to face-to-face meetings and sponsorship so if you’re new to AA, please stay after the meeting so members can chat with you, a link to the Australian AA meeting website will be posted in chat, along with details of this groups WhatsApp so that people can stay connected (copy and paste the below and post into chat):
 
-- Preamble  
-- How it Works  
+1. Preamble  
+2. How it Works  
 
 ## Housekeeping  
 
-- We are set to mute during the meeting and will be sent a request to unmute when asked to share, No cameras in this meeting.
+- No cameras, we are set to mute during the meeting and will be sent a request to unmute when asked to share.
 - Chat functionality is restricted to hosts only during first half of the meeting and opened about halfway through as the meeting settles.
-- 7th tradition: This meeting doesn’t have capacity to take contributions, feel free to contribute to your next in person meeting or to the AA general service office via details in chat.
+- This meeting doesn’t have capacity to take contributions, feel free to contribute to your next in person meeting or to the AA general service office via details in chat.
 - If you’d like to become a host or co-host, please let us know after the meeting or come in early and ask the meeting hosts.
 - ‘proof of attendance’ for anyone who needs it, you can message us directly.
-- Finally, this is a topic meeting based on the AA Daily Reflection book, shares of about 2-3 minutes help us to get to as many people as possible.
-- Daily reflection and first share
+- We have 30 minutes together please try keep shares to about 2-3 minutes so we may get to as many people as possible.
 
 ---------
 
+- Anonymity is the spiritual foundation of all our traditions, ever reminding us to place principles before personalities.
+
 ```text
 
-7th Tradition Details:
+This group encourages attendance to in-person 
+meetings and sponsorship.
  
-PayID:          donations@aa.org.au 
+Getting to an *i*n-person meeting: 
+AA meetings lists: 
+https://meetings.aa.org.au/regions/
  
-PayPal:         paypal.me/AAGSOAustralia
+Staying connected: 
+We have a WhatsApp chatter group.
+Feel free to join anytime - 
+a good way to get phone numbers,
+fellowship, laughs, support etc.. meeting:
+https://chat.whatsapp.com/Ja5rlLJrUvCHvaGgzoEPZj
  
-Electronic Transfer:
-BSB:            012006 
-Account number: 009750529
-Account name:   General Service Board of Alcoholics Anonymous Australia 
- 
-Please post cheques or money orders to:
+7th Tradition contributions encouraged to be 
+paid straight to GSO by: 
+
+Electronic bank transfer:
+To: General Service Board 
+of Alcoholics Anonymous Australia
+BSB: 012006
+ACC: 009750529
+ 
+Pay ID: donations@aa.org.au
+ 
+PayPal:  paypal.me/AAGSOAustralia
+ 
+OR 
+
+Post: cheques or money orders to:
 General Service Office of AA
 48 Firth St
-Arncliffe NSW 2205
+Arncliffe NSW 2205
+
 ```
 
 ---------
 
 ## Daily Reflect your fasciae off please
-
-- Choose people to share and send request to unmute
-a. Mention using the ‘raise hand’ function for people that ‘have a burning desire’ to share
-b. Choose members to maximise engagement and inclusion (host discretion)
-- 7th Tradition (at approx. 7:15) - This meeting doesn’t have capacity to take contributions, feel free to contribute to your next in person meeting or to the AA general service office via details in chat
 
 Chat post to new members:
 
@@ -131,8 +148,8 @@ A meeting host or co-host may provide the following details in chat directly for
 Please screenshot for proof of attendance:
 
 _______________________________
-Attended the Perth Daily Reflection AA meeting on 22/08/2025
-Host: Jim (James Thompson) 
+Attended the Perth Daily Reflection AA meeting on --/--/20--
+Host: Jim (---------) 
 
 ```
 
