@@ -48,6 +48,13 @@ import { SITE_TITLE, SITE_LOGO } from '../consts';
         box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
     }
     
+    .logo-container {
+        display: flex;
+        align-items: center;
+        gap: 0.5 em;
+        flex-shrink: 0; /* Prevent logo from shrinking */
+    }
+
     h2 {
         margin: 0;
         font-size: 1.2em;
@@ -70,7 +77,7 @@ import { SITE_TITLE, SITE_LOGO } from '../consts';
     
     .internal-links {
         display: flex;
-        gap: 0.5em;
+        gap: 1em;
         flex: 1;
         justify-content: center;
     }
