@@ -1,7 +1,7 @@
 ---
-title: 'Radio Fremantle - AA '
-description: 'Info for Speaker'
-pubDate: '01 March 2025'
+title: Radio Fremantle - AA
+description: Info for Speaker
+pubDate: 01 March 2025
 heroImage: '/img/2025/radio_fremantle_aa.png'
 tags:
 - Fremantle
@@ -49,14 +49,17 @@ Unit 4/153 Rockingham Rd, Hamilton Hill
 ### When
 
 Every Monday 1230 – arrive 10 minutes before airing time at 1220
+The door should be open, first building on the left.
 
 OR
 
-Interview via phone [Telephone: _08 9494 2100](tel:0894942100) phone in at 1230
+Interview via phone, Kerry will be given your number and phone you at 1230
 
-Sobriety _recommended_ 1+ years – No swearing. We are not a preacher or a teacher.
+Sobriety _recommended_ No swearing. We are not a preacher or a teacher.
 
-### Previous Shares
+[Telephone: _08 9494 2100](tel:0894942100)
+
+### Previous AA Guest Shares
 
 This is the link to the entire Health Scene show that airs every monday at 1100 – 1300 AA speaker should be @90minute mark or there abouts:
 
@@ -90,7 +93,3 @@ AA had its beginnings in 1935, Akron, Ohio, as the outcome of a meeting between 
 1941: 6000 Sober members
 1950: 100,000 an estimated two million members of AA in over 150 countries
 2025: Today, an A.A. presence can be found in approximately 180 nations worldwide, with membership estimated at over two million. There are more than 123,000 A.A. groups around the world and A.A.’s literature has been translated into over 100 languages
-
-[📧 email me](mailto:james@jraymondt.com) if you have any queries.
-
-[☎️ or call me 0406 642 114](tel:0406642114)
