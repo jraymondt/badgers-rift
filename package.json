@@ -10,15 +10,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "4.3.12",
+    "@astrojs/mdx": "4.3.13",
     "@astrojs/react": "4.4.2",
     "@astrojs/rss": "4.0.14",
     "@astrojs/sitemap": "3.6.0",
-    "@astrojs/svelte": "7.2.2",
+    "@astrojs/svelte": "7.2.4",
     "@philnash/astro-pagination": "^0.5.0",
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
-    "astro": "5.16.1",
+    "astro": "5.16.6",
     "fulldev-ui": "^0.6.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
