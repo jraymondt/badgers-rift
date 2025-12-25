@@ -1,4 +1,5 @@
 ---
+// Lightly typed props coming from Astro pages.
 import type { Page } from "astro";
 import Previous from "./pagination/Previous.astro";
 import Next from "./pagination/Next.astro";
@@ -18,6 +19,7 @@ interface Props {
   nextLabel?: string;
 }
 
+// Pull out the knobs with friendly defaults so the component is drop-in.
 const {
   page,
   urlPattern,
@@ -29,21 +31,26 @@ const {
   nextLabel = "Next →",
 } = Astro.props;
 
+// Build the sliding window of page numbers.
 const pageNumbers = getPageNumbers(page, windowSize);
 const firstPageInRange = pageNumbers[0];
 const lastPageInRange = pageNumbers[pageNumbers.length - 1];
 
+// Decide when to show first/last links (only if they’re outside the window).
 const showFirst = showFirstLast && pageNumbers[0] !== 1;
 const showLast = showFirstLast && lastPageInRange !== page.lastPage;
 
+// Special-case page 1 so / is used instead of /page/1 if provided.
 const previousUrl =
   firstPageUrl && page.currentPage === 2 ? firstPageUrl : page.url.prev;
 ---
 
 <nav role="navigation" aria-label="Pagination">
   <ul class="pagination-list">
+    {/* Optional previous button */}
     {showPrevNext && <Previous url={previousUrl} label={previousLabel} />}
     
+    {/* Jump to first page when it’s outside the current window */}
     {showFirst && (
       <li>
         <Link
@@ -54,12 +61,14 @@ const previousUrl =
       </li>
     )}
     
+    {/* Leading ellipsis when there’s a gap before the window */}
     {firstPageInRange > 2 && (
       <li>
         <Ellipsis />
       </li>
     )}
     
+    {/* Main window of numbered links, highlighting the current page */}
     {pageNumbers.map((pageNumber) => (
       <li>
         {pageNumber === page.currentPage ? (
@@ -74,12 +83,14 @@ const previousUrl =
       </li>
     ))}
     
+    {/* Trailing ellipsis when there’s a gap after the window */}
     {lastPageInRange < page.lastPage - 1 && (
       <li>
         <Ellipsis />
       </li>
     )}
     
+    {/* Jump to last page when it’s outside the current window */}
     {showLast && (
       <li>
         <Link
@@ -90,6 +101,7 @@ const previousUrl =
       </li>
     )}
     
+    {/* Optional next button */}
     {showPrevNext && <Next url={page.url.next} label={nextLabel} />}
   </ul>
 </nav>
