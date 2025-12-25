@@ -1,0 +1,38 @@
+---
+interface Props {
+  pageNumber: number;
+  urlPattern: string;
+  firstPageUrl?: string;
+}
+
+const { pageNumber, urlPattern, firstPageUrl } = Astro.props;
+
+let href: string;
+if (pageNumber === 1 && firstPageUrl) {
+  href = firstPageUrl;
+} else {
+  href = urlPattern.replace(":page", pageNumber.toString());
+}
+---
+
+<a href={href} class="pagination-link page-link">{pageNumber}</a>
+
+<style>
+  .page-link {
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    border: 3px solid var(--cga-light-blue);
+    text-decoration: none;
+    color: var(--cga-light-blue);
+    background-color: var(--cga-navy);
+    transition: all 0.2s ease;
+    font-weight: bold;
+    min-width: 2.5em;
+    text-align: center;
+  }
+  
+  .page-link:hover {
+    background-color: var(--cga-light-blue);
+    color: var(--cga-navy);
+  }
+</style>
