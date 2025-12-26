@@ -2,7 +2,7 @@
 title: David Lynch has dropped his meat space vehicle
 description: I wonder if he will take another, keep an eye out for another David Bowie / Lynch project we won't recognise
 pubDate: 2025-01-20
-heroImage: '/blog-placeholder-1.png'
+heroImage: '/img/2025/david.lynch.png'
 tags:
   - david-lynch
   - art
@@ -20,7 +20,7 @@ Imaginary-friend-01: "A dead celeb?" I hear you caw.
 
 jimbob: "almost definately"
 
-Imaginary-friend-01: "but my last house was made out of dead celeb pelts and that melted into an on-coming burger."
+Imaginary-friend-01: "but my last house was made out of dead celeb pelts and that melted into an on-coming floss-wagon."
 
 jimbob: "okay, weirdo..."
 

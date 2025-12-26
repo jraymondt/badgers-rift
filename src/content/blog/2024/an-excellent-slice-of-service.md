@@ -1,13 +1,15 @@
 ---
 title: an excellent slice of service
-description: deep down
+description: Deep down where it matters—a meditation on purpose and the llama within.
 pubDate: 2024-11-16
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/img/2024/furry_power.jpg'
 tags:
-  - llhama
-  - daily reflection
+  - llama
+  - daily-reflection
   - barnacle
   - crimp
+  - service
+  - metaphysics
 ---
 
 ## calm a llama down
@@ -49,3 +51,5 @@ Oh, I got to host an Online Daily Reflection, intense, challenging (for me) done
 sudo apt install picture_of_spiritual_connection -EOD -GOD
 sudo love you all -jimbob
 ```
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P418OOZS)

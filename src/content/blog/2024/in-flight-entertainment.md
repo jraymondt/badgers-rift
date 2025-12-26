@@ -1,12 +1,15 @@
 ---
 title: in-flight entertainment
-description: strap in kids, it is going to
+description: Strap in kids, it is going to—a wild ride through the absurdity of commercial culture and ad-fueled nonsense.
 pubDate: 2024-12-05
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: '/img/2024/time_vampires.png'
 tags:
-  - dog tags
+  - dog-tags
   - ads
   - TAFE
+  - capitalism
+  - chaos
+  - entertainment
 ---
 
 ## This is your in-flight recorder speaking
@@ -53,6 +56,8 @@ Once I reach the City I will find work in the Binary Farms. with the money I pla
 ```
 
 I burnt that hammer, pickled it and sent it into an alternate dimension by crossing the beams on a functional dyson-sphere, and plugging them into a bath.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P418OOZS)
 
 Good night.🎄
 

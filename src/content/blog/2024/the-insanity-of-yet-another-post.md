@@ -1,11 +1,14 @@
 ---
 title: the insane person just keeps doing it
-description: try not to soil your keks
+description: Try not to soil your keks—a Halloween descent into the absurd, featuring Clippy.
 pubDate: 2024-10-27
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/img/2024-10-26_01-39-colourween.jpg'
 tags:
   - halloween
   - clippy
+  - insanity
+  - persistence
+  - nostalgia
 ---
 
 ## The insane person just keeps doing it
@@ -17,7 +20,7 @@ I will fix this Devile picture(oh good I think I have broken them all now) when 
 
 Or maybe later tonight.
 
-![old mate and is rapey mastk](/img/20241026_skinnnnnnnt.jpg)
+![old mate and is](/img/20241026_skinnnnnnnt.jpg)
 
 ![thank james](/img/2024-10-26_01-39-thanks%20james.jpg)
 
@@ -47,7 +50,9 @@ I am doing.
 [flatlinejim@jraymondt.com](mailto:flatlinejim@jraymondt.com) for tips and nudes. just the tip of course.
 
 ```console :/
-
+exit
 ```
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P418OOZS)
 
 Sorry, I am going!

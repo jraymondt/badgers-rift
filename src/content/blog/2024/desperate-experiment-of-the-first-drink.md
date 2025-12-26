@@ -2,11 +2,15 @@
 title: the desperate experiment of the first blog
 description: so, you think you can blog?
 pubDate: 2024-10-25
-heroImage: '/blog-placeholder-5.jpg'
+heroImage: '/img/2024/karrgatup_seeds.jpg'
 tags:
-  - program
-  - first
+  - personal-essay
+  - life-changes
+  - humor
+  - lost-souls-welcome
   - meatspace
+  - desperate-experiments
+  - first-blood
 ---
 
 ## the desperate experiment of the first blog
@@ -29,4 +33,6 @@ After nearly a year at the City of Swan (my end-goal late-stage-capitalism job) 
 Time to start blagging? Blods? deburg do herp de doo.
 I have finally found a group of people that accept my many flaws which has inspired me to keep living, as I come to terms with a new way of existing in meatspace, I shall endeavour to write the juicy bits down.
 
-Hopefully we can have a laugh together, or separately if you would prefer, let’s not make it weird
+Hopefully we can have a laugh together, or separately if you would prefer, let’s not make it weird.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P418OOZS)

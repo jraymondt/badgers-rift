@@ -1,25 +1,31 @@
 ---
 title: factor of 12
-description: alex's favourite number puzzle, 12 is everywhere maaaaaaaaaaaaaaaaaaan
+description: Alex's favourite number puzzle—12 is everywhere maaaaaaaaaaaaaaaaaaan. A cosmic coincidence or universal truth?
 pubDate: 2024-12-08
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/img/2024/weatherwithcarljim.png'
 tags:
   - weather
   - manatee
   - moongrinder
   - alconaut
+  - numerology
+  - cosmic-vibes
+  - pattern-recognition
 ---
 
-### weather manatee
+## weather manatee
 
 It was a stormy afternoon in the back paddock, the horses where chomping at the bit and the frogs were alive with stomping.
 
 Here is Carl with the weather:
+
 ![stompy](/img/2024/dark_side_of_the_dryer.jpg)
+
 I did start doing this blogging some time a go as you might be able to tell from the date, soon the Xman will be poking his face in our socks and rubbing our fireplaces with hot deer-glue.
 Time to do some more time, that isn't prison-time.
 
 No really, here IS Carl with the weather:
+
 ![Carl](/img/2024/weatherwithcarljim.png)
 
 ### one of the advantages of not being drunk all the time
