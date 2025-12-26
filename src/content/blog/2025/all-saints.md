@@ -1,6 +1,6 @@
 ---
 title: all wombles eve
-description: taking the donkey by the horns
+description: taking the donkey by the horns, another hallows eve special
 pubDate: 2025-10-30
 heroImage: '/img/2025/maylands-daybreak.webp'
 tags:
@@ -51,5 +51,7 @@ Why the flipping fuck am I filling up my SSD with this garbage, I thought I had 
 Yeah I give up, I am busy pushing myself through a metal playdough set into a god shaped hole called TAFE, so I can get a job being a very fancy man with 2 plates and a can of corned cow cartilage.
 
 ![a year of walking around like a cockhead](/img/2025/the-eyes-have-it-bw.jpg)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P418OOZS)
 
 🚎 🥰 🐚 bye ⛽ 🂽

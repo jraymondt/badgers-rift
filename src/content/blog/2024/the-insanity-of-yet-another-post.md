@@ -2,7 +2,7 @@
 title: the insane person just keeps doing it
 description: Try not to soil your keks—a Halloween descent into the absurd, featuring Clippy.
 pubDate: 2024-10-27
-heroImage: '/img/2024-10-26_01-39-colourween.jpg'
+heroImage: '/img/2024/2024-10-26_01-39-thanks%20james.jpg'
 tags:
   - halloween
   - clippy
@@ -20,9 +20,9 @@ I will fix this Devile picture(oh good I think I have broken them all now) when 
 
 Or maybe later tonight.
 
-![old mate and is](/img/20241026_skinnnnnnnt.jpg)
+![old mate and is](/img/2024/20241026_skinnnnnnnt.jpg)
 
-![thank james](/img/2024-10-26_01-39-thanks%20james.jpg)
+![thank james](/img/2024/2024-10-26_01-39-thanks%20james.jpg)
 
 ### The not so sane
 
@@ -35,7 +35,7 @@ others in and around my recovery is for the best
 
 ### Holloween
 
-![Halloween in Colour](/img/2024-10-26_01-39-colourween.jpg)
+![Halloween in Colour](/img/2024/2024-10-26_01-39-colourween.jpg)
 There was also people doing the Halloween.
 Oh! Just wrote down a bob quote for new website ideas.
 
