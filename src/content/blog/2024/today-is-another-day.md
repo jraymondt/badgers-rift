@@ -1,12 +1,14 @@
 ---
 title: today is the day
 description: tomorrow is another day
-pubDate: 2024-11-04 10:45:10
-heroImage: '/blog-placeholder-2.jpg'
+pubDate: 2024-11-04
+heroImage: '/img/2024/treeoflife.jpg'
 tags:
   - blogging
   - grandad
   - McGranaghan
+  - daily-life
+  - wisdom
 ---
 
 Grandad McGranaghan used to have a thing he would say when something wasn't going our way: "tomorrow is another day", fairly obvious, thanks Grandad.

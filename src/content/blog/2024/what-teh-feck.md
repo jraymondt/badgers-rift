@@ -1,8 +1,8 @@
 ---
 title: what teh feck
-description: right up the badger
+description: right up the ferry and the quest the holy badger
 pubDate: 2024-11-03
-heroImage: '/blog-placeholder-5.jpg'
+heroImage: '/img/2024/subi_party.jpg'
 tags:
   - once human
   - south perth
@@ -11,7 +11,7 @@ tags:
   - hexo
 ---
 
-### that was a nice sunday
+## that was a nice sunday
 
 That is what she said, before plunging a knife into a wet bowl of ham.
 
@@ -26,5 +26,7 @@ So, here we are missing blog dates and generally struggling. I am fine, it can't
 Thanks for stopping by and reading my bullshit, I am sure I will get better at this. Just keep [plugging cats into keyboards](https://www.instagram.com/reel/DBZfrMNhM6O/?igsh=ajdjNHRqNWQ0cmR6).
 
 Love..
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P418OOZS)
 
 Jim <3>

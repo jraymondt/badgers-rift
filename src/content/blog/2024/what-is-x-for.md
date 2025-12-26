@@ -2,11 +2,13 @@
 title: what is the x (x-rayvision (o.o)) in mdx
 description: all this and more, coming up
 pubDate: 2024-10-26
-heroImage: '/blog-placeholder-4.jpg'
+heroImage: '/img/2024/thatwasmythought.jpg'
 tags:
   - markdown
   - TIL
   - SNL
+  - technical
+  - development
 ---
 
 ## what is the x (x-rayvision (o.o)) in mdx
@@ -41,3 +43,5 @@ Not going to lie ~~b0b knows~~ lord knows what I am ==doing==
 ### Images in MDX it's probably extended, it's always extended with these computer guys
 
 If this is a midlife crisis I think I will be fine, will you?
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P418OOZS)
