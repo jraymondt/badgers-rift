@@ -1,6 +1,6 @@
 ---
 title: true love is a blind pie tasting
-description: absolutely carpet burned
+description: absolutely carpet boraxed and ready for the woodchipper
 pubDate: 29 November 2025
 heroImage: '/img/2025/eyepie.webp'
 tags:

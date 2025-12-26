@@ -1,6 +1,6 @@
 ---
 title: these spatulas are out of order
-description: life as we know it in this moment
+description: a dip into nostalgia, minus the pants
 pubDate: 2025-09-14
 heroImage: '/img/2025/alexsh16.jpg'
 tags:

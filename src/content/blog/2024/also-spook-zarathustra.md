@@ -1,18 +1,19 @@
 ---
 title: also spook zarathustra
-description: souls glorious souls
+description: Souls, glorious souls—exploring the spooky intersection of philosophy, spirituality, and existential dread on All Hallows Eve.
 pubDate: 2024-10-31
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/img/2024/killwithkindness.jpg'
 tags:
-  - Halloween
-  - all hallows eve
-  - all saints day
-  - explosions in the sky
-  - aldous huxley
+  - halloween
+  - all-hallows-eve
+  - all-saints-day
+  - explosions-in-the-sky
+  - aldous-huxley
   - todd
+  - spooky-thoughts
 ---
 
-### whats all this then
+## whats all this then
 
 I have decided to at least put this shit through spell check today, I apologise if I am
 triggering anyone with my grasp of the english language.
@@ -44,4 +45,3 @@ I will disable you with kindness and or random shit.
 
 [Take care, take care, take care](https://www.youtube.com/watch?v=P4qJubd1haw)
 ![kill with kindness or just kill](/img/2024/killwithkindness.jpg)
-I guess I need to fix the new buddy logo on the navbar, not sure what is going on there.

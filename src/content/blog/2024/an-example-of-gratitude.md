@@ -1,16 +1,16 @@
 ---
 title: had to go to the web oracle for answers
-description: gratitude - if you are reading this I love you
+description: if you are reading this I love you
 pubDate: 2024-11-13
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/img/2024/fairbridge.jpg'
 tags:
   - love
-  - step 1
-  - step 2
   - gratitude
+  - recovery-tools
+  - web-oracle
 ---
 
-### gratitude
+## gratitude
 
 I am grateful you are reading this amazing peice of ramble that is spewing out of my fingers at 0254, I actually _had_ to write this as a web based thing as SMS can't handle the pure nonsense that is jimbob. She put him to bed, between two bits of bread.
 I am grateful for people like Kerry McGranaghan and Zack Ready for showing me artists I truly admire, I am amused to death and listening to "The Pros and Cons of Hitch Hiking"... lets think about that Title for a second, Hitching up with someone (my sponsor) and Hiking (my journey) Only the dead go free.
@@ -18,21 +18,13 @@ I am grateful for using github copiolot, without that I would not be able to rol
 
 ```console
 
-You are in 'detached HEAD' state. You can look around, make experimental
-changes and commit them, and you can discard any commits you make in this
-state without impacting any branches by switching back to a branch.
-If you want to create a new branch to retain commits you create, you may
-do so (now or later) by using -c with the switch command. Example:
-  git switch -c <new-branch-name>
-Or undo this operation with:
-  git switch -
-Turn off this advice by setting config variable advice.detachedHead to false
-HEAD is now at f2f6e44 another update and reduced size of pics
+You are in 'detached HEAD' state. You can look around, make experimental changes and commit them, and you can discard any commits you make in this state without impacting any branches by switching back to a branch.
 ```
 
 ## honour among thieves
 
-This gratitude was brought to you by God, if you have a problem with that, that is ok, I understand, but this is my reality now and that is why I had to wake upon praying to do thy will at 0200:
+This gratitude was brought to you by The all encompassing love of the universe, if you have a problem with that, that is ok, I understand, but this is my reality now.
+
 ![hugh grant](/img/2024/honour-among-thieves.jpg)
 
 ## the remains of our love
@@ -65,7 +57,7 @@ On the way to our new life in the country
 
 ![fair bridge to freedo](/img/2024/fairbridge.jpg)
 
-Don't panic about the song lyrics, I am going to Fairbridge though thank _god_ and my sponsor, fairbridge village year 7 camp was one of the last times I got up in front of a crowd with my friend Dean and did something truly enjoyable [possibly funny] in front of my peers, South Lake primary beat the fuck out of me, I hated that place with a passion, I got punched in the back of the head for no reason one day, I have never had to fight so hard to survive than I did there, I am only just realising that now as I type.
+Don't panic about the song lyrics, I am going to Fairbridge though thank _god_ and the cult of the diced lamb, fairbridge village year 7 camp was one of the last times I got up in front of a crowd with my friend Dean and did something truly enjoyable [possibly funny] in front of my peers, South Lake primary beat the fuck out of me, I hated that place with a passion, I got punched in the back of the head for no reason one day, I have never had to fight so hard to survive than I did there, I am only just realising that now as I type.
 
 ## 0200
 
@@ -75,17 +67,7 @@ I am grateful this gratitude is so rambling and out there, I needed to get somet
 
 ## tablet
 
-I am grateful god is delivering me a Samsung (sponsored by whippa and the dingdong only on 92.9 with Kyle the kockmonster) tablet, So I can finally haunt you for ever with my stupid drawings. I know, its a material possession, but it will allow me to easily draw my nonsense, and I can’t wait, but I know I need to be patient, thank you to the Most High Power, universal oneness and love.
-
-## russell brand
-
-I am grateful for Russell Brand; in my active alcoholism I resented how happy that man was, and S shared with me something I needed to hear at the right time to bring me down from the rafters of the monolith. (I should probably share this with him as a sign of my love for him) Thank you.
-Thank you for reading all of this, in a different format with a fucking picture of Hugh Grant, if you made it this far without vomiting, well done. Peace and love to you.
-I am truly grateful this morning and all mornings going forward
-
-## pure
-
-I am grateful for Pure Writer 2 count the amount of words in this shit, 900+ I have probably never written something so lengthy so fast without hesitation, a feeling I am enjoying and feeling happy content and goosebumpy, whatever that is.
+I am grateful the universe is delivering me a Samsung (sponsored by whippa and the dingdong only on 92.9 with Kyle the kockmonster) tablet, So I can finally haunt you for ever with my stupid drawings. I know, its a material possession, but it will allow me to easily draw my nonsense, and I can’t wait, but I know I need to be patient, thank you to the Most High Power, universal oneness and love.
 
 ## 0450 (go fishing)
 

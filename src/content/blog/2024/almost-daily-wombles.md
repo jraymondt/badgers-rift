@@ -1,13 +1,15 @@
 ---
 title: almost daily wombles
-description: the wombles of wimbledon are wimbly your womble
+description: The Wombles of Wimbledon are wimbly your womble—a whimsical descent intro.
 pubDate: 2024-11-07
-heroImage: '/blog-placeholder-4.jpg'
+heroImage: '/img/2024/lone_pine.jpg'
 tags:
   - wombles
   - wimbledon
-  - ball ball
-  - lone pine
+  - ball-ball
+  - lone-pine
+  - british-nonsense
+  - cartoon-obscurity
 ---
 
 I am tits-poundtown, this is the world as I see it, through your eyes and a force fed to a mute cardboard cutout of the late Queen.

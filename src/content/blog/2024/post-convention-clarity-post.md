@@ -2,7 +2,7 @@
 title: post convention clarity post
 description: meditate on it
 pubDate: 2024-11-11
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/img/2024/birb.png
 tags:
 - nutjobs
 ---

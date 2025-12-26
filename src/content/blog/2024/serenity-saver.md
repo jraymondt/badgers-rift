@@ -2,7 +2,7 @@
 title: serenity saver
 description: meditate on it
 pubDate: 2024-11-08
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/img/2024/howstheserenity.jpg'
 tags:
   - meditation
   - serenity
@@ -18,15 +18,13 @@ So yesterday was a new thing at the beach, I was able to meditate in the grass a
 
 I was able to meditate for 20 mins this morning, when I open my eyes I was staring a my screen saver, which ahhh, you had to be there I guess.
 
-I am now healed, praise Allah.
+I am now healed, praise the.
 
 ### pristine
 
 ![blob](/img/2024/blobatthebeech.jpg)
 
 Schema foundations interview went swimmingly? who knows, I probably won't drown at least, got myself some floaties.
-
-Speaking of floaties and speaking, I am going to a thing: [WAPAA](https://wapaa.org.au) I will be recording some of the speakers, excite.
 
 Stay floaty and have a nice weekend.
 

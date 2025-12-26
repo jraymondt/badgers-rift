@@ -35,7 +35,7 @@ Congratulations on being offered a place in the following course:
 
 That more or less explains my current mood, minus the throwing up, I love the drama.
 
-I have been playing with my new tablet I was able to get from o✨tus. You have seen some of my scrawl already.
+I have been playing with my new tablet I was able to get from otis. You have seen some of my scrawl already.
 
 ![scarwl](/img/2024/i_dont_know_much.png)
 
