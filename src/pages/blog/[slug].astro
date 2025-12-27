@@ -1,19 +1,18 @@
 ---
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
-import BlogPost from '../../../layouts/BlogPost.astro';
+import BlogPost from '../../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('blog');
   
   return blogEntries.map((entry) => {
-    const year = new Date(entry.data.pubDate).getFullYear();
-    const cleanSlug = entry.id.replace(/^\d{4}\//, '');
+    // Use the filename as slug (without extension)
+    const slug = entry.id.replace(/\.mdx?$/, '');
     
     return {
       params: { 
-        year: year.toString(),
-        slug: cleanSlug
+        slug: slug
       },
       props: { 
         entry

@@ -23,7 +23,7 @@ const title = "Blog";
 const description = "All blog posts from Badgers Perfection";
 
 // Get the latest post for hero display
-const latestPost = page.data[0];
+const latestPost = page.data && page.data.length > 0 ? page.data[0] : null;
 const olderPosts = page.data.slice(1);
 ---
 
@@ -284,9 +284,8 @@ const olderPosts = page.data.slice(1);
         <!-- Older Posts with Thumbnails -->
         <section class="older-posts">
           {olderPosts.map((post: any) => {
-            const year = new Date(post.data.pubDate).getFullYear();
-            const cleanSlug = post.id.replace(/^\d{4}\//, '');
-            const postUrl = `/blog/${year}/${cleanSlug}/`;
+            const slug = latestPost.id.replace(/\.mdx?$/, '');
+            const postUrl = `/blog/${slug}/`;
             
             return (
               <article class="blog-post">
