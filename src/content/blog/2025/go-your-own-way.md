@@ -1,6 +1,6 @@
 ---
-title: these spatulas are out of order
-description: a dip into nostalgia, minus the pants
+title: 
+description: A dip into nostalgia minus the pants- ramblings on consumer culture, the 80s, and fighting the spatulas until order is restored.
 pubDate: 2025-09-14
 heroImage: '/img/2025/alexsh16.jpg'
 tags:
@@ -9,6 +9,8 @@ tags:
   - strange
   - outrage
   - drawn
+  - nostalgia
+  - rebellion
 ---
 
 ## These are the days of our Internets
@@ -59,6 +61,6 @@ Grandma used to say something quite nice about being kind, a bunch of other peop
 #### ok I found it, thanks people and koeijers
 
 “In a world where we can be anything, be kind"
-Bertie Watts 🙏💖
+-Bertie 🙏💖
 
 ![peace](/img/2025/peace-train.jpg)

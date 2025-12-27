@@ -1,13 +1,14 @@
 ---
 title: my thoughts on the year ahead
-description: an uneducated guess
+description: An uneducated guess- reflections on atomic habits, Hollywood Clinic, and what 2025 might bring.
 pubDate: 2025-01-01
 heroImage: '/blog-placeholder-5.jpg'
 tags:
-  - twenty five
-  - daily reflection
-  - atomic habits
-  - Hollywood Clinic
+  - twenty-five
+  - daily-reflection
+  - atomic-habits
+  - hollywood-clinic
+  - new-year
 ---
 
 ## so, we are still here
@@ -31,7 +32,7 @@ I think I finished the book [Atomic Habits](https://jamesclear.com/atomic-habits
 3. Put all the books I would like to read a chapter from on the bed
 4. Meditate
 5. Read
-6. [Morning Daily Reflection meeting of AA](https://meetings.aa.org.au/meetings/daily-reflections-audio-perth-friday/) via Zoom
+6. Daily Reflection meeting
 7. Breakfast
 8. Meds
 9. continue day until sleep
@@ -42,18 +43,18 @@ All much easier when you are in hospital, have breakfast made for you and a litt
 
 This morning I spun the dial on [my meditation app](https://insighttimer.com/), (thanks Sean and Jeff) the dial kept spinning, so I stopped it and set it to a number that was slightly more meditation than I was previously doing, I set it to 33min44seconds.
 
-I will continue to add to my routine things that set me up for a good day, including ones recommended by my sponsor and the big book of Alcoholics Anonymous. 🐭 Even some recommended by health professionals and people of science!
+I will continue to add to my routine things that set me up for a good day. 🐭 Even some recommended by health professionals and people of science!
 
 Right now I have some daily gratitude to write.
 
 It doesn't have to be a special day to start small changes, small changes are rewarding. Your brain will thank you with a squirt of dopamine.
 
-### find your tribe. I did. Takes a village idiot
+### find your tribe
 
-Everything I have started doing that was way out of my comfort zone, starting by talking in front of other alcoholics in therapy and in that first online daily reflection meeting, to walking into the weirdness of the Monastery in North Perth for my first face-to-face meeting in meatspace, none of them have mortally wounded me but only made me stronger. If I can do it, so can others, there is much proof.
-
-Find the right people, find the right homegroup, find the right meeting, even if it isn't an AA meeting just do something. Anyway, this is getting a little preachy, fuck all that nonsense.
+Everything I have started doing that was way out of my comfort zone, starting by talking in front of others in therapy and in that first online daily reflection meeting, to walking into the culty weirdness of the Monastery in North Perth for my first face-to-face meeting in meatspace, none of them have mortally wounded me but only made me stronger. If I can do it, so can others.
 
 Thank you for getting [this](https://music.youtube.com/watch?v=Beboh8Azuuo&si=xqV7ZLpwfbRiHHcK) far. Oh was not expecting MC Conrad, Rest in Peace sir. Oh, it does say "vocal mix".
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P418OOZS)
 
 ![father lassagne](/img/2025/father_lasagne.png)

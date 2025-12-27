@@ -1,6 +1,6 @@
 ---
 title: good shit
-description: a very un-funny typo
+description: A very un-funny typo that somehow became profound- exploring mistakes and pythons through a lamb tunnel.
 pubDate: 2025-02-06
 heroImage: '/img/2025/clams.png'
 tags:
@@ -8,6 +8,8 @@ tags:
   - typos
   - spam
   - python
+  - humor
+  - accidents
 ---
 
 ## there I was minding my own business
@@ -46,5 +48,7 @@ Much love.
 ### fuck sake
 
 I really wanted to get this done before I turn into some kind of squashed Marmoset salad. Now it is the next day and we are going to miss making the Sunday Times _deadline!_ _/shakesfistatsky_
+
+Clam down you psycho!
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P418OOZS)
