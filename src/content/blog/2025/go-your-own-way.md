@@ -1,5 +1,5 @@
 ---
-title: 
+title: go your own way
 description: A dip into nostalgia minus the pants- ramblings on consumer culture, the 80s, and fighting the spatulas until order is restored.
 pubDate: 2025-09-14
 heroImage: '/img/2025/alexsh16.jpg'

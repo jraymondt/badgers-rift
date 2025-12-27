@@ -1,6 +1,6 @@
 ---
-title: Radio Fremantle - AA
-description: Info for Speaker
+title: Radio Fremantle
+description: Info for Speakers
 pubDate: 01 March 2025
 heroImage: '/img/2025/radio_fremantle_aa.png'
 tags:

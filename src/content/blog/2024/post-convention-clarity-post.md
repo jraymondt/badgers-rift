@@ -2,7 +2,7 @@
 title: post clarity post
 description: meditate on clarity chaos and cassettes
 pubDate: 2024-11-11
-heroImage: '/img/2024/birb.png
+heroImage: '/img/2024/birb.png'
 tags:
   - meditation
   - clarity
