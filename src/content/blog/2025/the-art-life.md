@@ -1,6 +1,6 @@
 ---
 title: David Lynch has dropped his meat space vehicle
-description: I wonder if he will take another, keep an eye out for another David Bowie / Lynch project we won't recognise
+description: I wonder if he will take another, keep an eye out for another David Bowie / Lynch project we won't recognise- exploring the mortality of genius and the art that outlives us.
 pubDate: 2025-01-20
 heroImage: '/img/2025/david.lynch.png'
 tags:
@@ -8,6 +8,8 @@ tags:
   - art
   - life
   - death
+  - mortality
+  - cinema
 ---
 
 ## The Arts, with Sir David Lynch

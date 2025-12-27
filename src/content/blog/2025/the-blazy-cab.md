@@ -1,6 +1,7 @@
 ---
 title: this title can get knotted
-description: so can your felt tipped choc mint spotted dick
+description: Jelly tipped choc mint spotted dick- Tooling problems.
+
 pubDate: 2025-01-09
 heroImage: '/img/2025/cownan_the_bovarian.png'
 tags:
@@ -8,6 +9,8 @@ tags:
   - cruxify
   - hooker with a penis
   - arnold lame
+  - music
+  - rage
 ---
 
 ## I really can't be arsed with this non-sense

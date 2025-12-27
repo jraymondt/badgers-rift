@@ -4,10 +4,12 @@ description: taking the donkey by the horns, another hallows eve special
 pubDate: 2025-10-30
 heroImage: '/img/2025/maylands-daybreak.webp'
 tags:
- - hallow
- - ween
- - study
- - punkalot
+  - hallow
+  - ween
+  - study
+  - punkalot
+  - halloween
+  - celebration
 ---
 
 ## it the ween wollow knight weave

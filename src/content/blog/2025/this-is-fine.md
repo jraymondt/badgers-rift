@@ -1,13 +1,15 @@
 ---
 title: true love is a blind pie tasting
-description: absolutely carpet boraxed and ready for the woodchipper
+description: Absolutely carpet boraxed and ready for the woodchipper- a Thanksgiving meditation on love and 3.14.
 pubDate: 29 November 2025
 heroImage: '/img/2025/eyepie.webp'
 tags:
-
-- thanksgive
-- crumble
-- pie
+  - thanksgive
+  - crumble
+  - pie
+  - love
+  - thanksgiving
+  - food
 ---
 
 ## this goose is everything, this, this is fine
