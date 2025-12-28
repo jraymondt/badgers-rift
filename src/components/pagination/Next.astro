@@ -1,0 +1,41 @@
+---
+interface Props {
+  url?: string;
+  label?: string;
+}
+
+const { url, label = "Next →" } = Astro.props;
+---
+
+<li>
+  {url ? (
+    <a href={url} class="pagination-link next-link">{label}</a>
+  ) : (
+    <span class="pagination-link pagination-disabled">{label}</span>
+  )}
+</li>
+
+<style>
+  .pagination-link {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 3px solid var(--cga-light-blue);
+    text-decoration: none;
+    color: var(--cga-light-blue);
+    background-color: var(--cga-navy);
+    transition: all 0.2s ease;
+    font-weight: bold;
+  }
+  
+  .pagination-link:hover:not(.pagination-disabled) {
+    background-color: var(--cga-light-blue);
+    color: var(--cga-navy);
+  }
+  
+  .pagination-disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+</style>
+
+

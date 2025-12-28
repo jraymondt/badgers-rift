@@ -1,0 +1,117 @@
+---
+interface Props {
+  postSlug: string;
+}
+
+const { postSlug } = Astro.props;
+const likeId = `like-${postSlug}`;
+---
+
+<div class="like-container">
+  <button 
+    id={likeId}
+    class="like-button"
+    data-post-slug={postSlug}
+    title="Like this post"
+  >
+    ❤️ <span class="like-count">0</span>
+  </button>
+  <button class="share-button" onclick={`shareOnFacebook('${postSlug}')`}>
+    📘 Share
+  </button>
+</div>
+
+<style>
+  .like-container {
+    display: flex;
+    gap: 1em;
+    margin: 2em 0;
+    padding: 1.5em;
+    border: 3px solid var(--cga-pink);
+    background-color: rgba(196, 81, 158, 0.05);
+  }
+
+  .like-button,
+  .share-button {
+    padding: 0.75em 1.5em;
+    border: 3px solid var(--cga-pink);
+    background-color: var(--cga-navy);
+    color: var(--cga-pink);
+    font-family: 'IBM VGA', monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .like-button:hover,
+  .share-button:hover {
+    background-color: var(--cga-pink);
+    color: var(--cga-navy);
+  }
+
+  .like-button.liked {
+    background-color: var(--cga-pink);
+    color: var(--cga-navy);
+  }
+
+  .like-count {
+    margin-left: 0.5em;
+    font-weight: bold;
+  }
+</style>
+
+<script define:vars={{ postSlug }}>
+  function initLikes() {
+    const likeButton = document.getElementById(`like-${postSlug}`);
+    if (!likeButton) return;
+
+    const storageKey = `likes-${postSlug}`;
+    let likes = parseInt(localStorage.getItem(storageKey) || "0");
+    let hasLiked = localStorage.getItem(`liked-${postSlug}`) === "true";
+
+    // Update display
+    updateLikeDisplay(likes, hasLiked);
+
+    // Click handler
+    likeButton.addEventListener("click", () => {
+      if (!hasLiked) {
+        likes++;
+        hasLiked = true;
+        localStorage.setItem(storageKey, likes.toString());
+        localStorage.setItem(`liked-${postSlug}`, "true");
+      } else {
+        likes--;
+        hasLiked = false;
+        localStorage.setItem(storageKey, likes.toString());
+        localStorage.setItem(`liked-${postSlug}`, "false");
+      }
+      updateLikeDisplay(likes, hasLiked);
+    });
+
+    function updateLikeDisplay(count: number, liked: boolean) {
+      const countEl = likeButton?.querySelector(".like-count");
+      if (countEl) {
+        countEl.textContent = count.toString();
+      }
+      if (liked) {
+        likeButton?.classList.add("liked");
+      } else {
+        likeButton?.classList.remove("liked");
+      }
+    }
+  }
+
+  // Initialize when DOM is ready
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initLikes);
+  } else {
+    initLikes();
+  }
+
+  window.shareOnFacebook = function(slug: string) {
+    const url = `${window.location.origin}/blog/${slug}/`;
+    const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+    window.open(facebookUrl, "facebook-share", "width=600,height=400");
+  };
+</script>

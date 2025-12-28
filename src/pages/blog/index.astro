@@ -1,112 +1,350 @@
 ---
-import BaseHead from '../../components/BaseHead.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
-import { getCollection } from 'astro:content';
-import FormattedDate from '../../components/FormattedDate.astro';
+import { getCollection } from "astro:content";
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import FormattedDate from "../../components/FormattedDate.astro";
+import Pagination from "../../components/Pagination.astro";
 
+export async function getStaticPaths({ paginate }: any) {
+  const allBlogEntries = (await getCollection("blog")).sort(
+    (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+  );
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+  return paginate(allBlogEntries, { pageSize: 6 });
+}
+
+interface Props {
+  page: any;
+}
+
+const { page } = Astro.props;
+const title = "Blog";
+const description = "All blog posts from Badgers Perfection";
+
+// FIXED: Use optional chaining and nullish coalescing
+// page.data is the actual array from paginate()
+const posts = page?.data ?? [];
+const latestPost = posts.length > 0 ? posts[0] : null;
+const olderPosts = posts.length > 1 ? posts.slice(1) : [];
+
+console.log("Posts found:", posts.length);
 ---
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--white));
-				line-height: 1;
-			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<section class="cga-scanlines">
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.id}/`}>
-									<img width={720} height={360} src={post.data.heroImage} alt="" />
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      main {
+        width: calc(100% - 2em);
+        max-width: 100%;
+        margin: 0;
+      }
+      
+      .blog-container {
+        width: 920px;
+        max-width: calc(100% - 2em);
+        margin: auto;
+        padding: 2em 1em;
+      }
+      
+      /* Hero Post Styles */
+      .hero-post {
+        margin-bottom: 4em;
+        border: 4px solid var(--cga-pink);
+        background-color: rgba(196, 81, 158, 0.05);
+      }
+      
+      .hero-image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 2/1;
+        overflow: hidden;
+        border-bottom: 4px solid var(--cga-pink);
+      }
+      
+      .hero-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+            
+      .hero-content {
+        padding: 2em;
+      }
+      
+      .hero-label {
+        display: inline-block;
+        background-color: var(--cga-pink);
+        color: var(--cga-navy);
+        padding: 0.5em 1em;
+        font-family: 'IBM VGA', monospace;
+        font-weight: bold;
+        margin-bottom: 1em;
+        border: 2px solid var(--cga-navy);
+      }
+      
+      .hero-content h2 {
+        margin: 0 0 0.5em 0;
+        font-size: 2em;
+        border: none;
+        padding: 0;
+      }
+      
+      .hero-content a {
+        color: var(--cga-light-cyan);
+        text-decoration: none;
+        border-bottom: 3px solid var(--cga-light-cyan);
+      }
+      
+      .hero-content a:hover {
+        color: var(--cga-pink);
+        border-bottom-color: var(--cga-pink);
+      }
+      
+      /* Older Posts Grid */
+      .older-posts {
+        display: grid;
+        gap: 2em;
+        margin-bottom: 3em;
+      }
+      
+      .blog-post {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 1.5em;
+        padding: 1.5em;
+        border: 3px solid var(--cga-light-blue);
+        background-color: rgba(157, 191, 229, 0.03);
+      }
+            
+      .post-thumbnail {
+        width: 200px;
+        height: 150px;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      
+      .post-thumbnail img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+            
+      .post-thumbnail.no-image {
+        background: linear-gradient(135deg, var(--cga-teal) 0%, var(--cga-lilac) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3em;
+      }
+      
+      .post-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+      .post-content h3 {
+        margin: 0 0 0.5em 0;
+        font-size: 1.5em;
+        border: none;
+        padding: 0;
+      }
+      
+      .post-content a {
+        text-decoration: none;
+        color: var(--cga-light-blue);
+      }
+
+      .post-content a:hover {
+        color: var(--cga-pink);
+        border-bottom-color: var(--cga-pink);
+      }
+      
+      .post-meta {
+        display: flex;
+        gap: 1em;
+        margin-bottom: 0.5em;
+        color: var(--cga-light-gray);
+        font-size: 0.85em;
+      }
+      
+      .post-description {
+        margin: 0.5em 0;
+        color: var(--cga-white);
+        line-height: 1.6;
+      }
+      
+      .read-more {
+        margin-top: 1em;
+        display: inline-block;
+        padding: 0.5em 1em;
+        border: 2px solid var(--cga-light-blue);
+        color: var(--cga-light-blue);
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.2s ease;
+      }
+      
+      .read-more:hover {
+        background-color: var(--cga-light-blue);
+        color: var(--cga-navy);
+      }
+      
+      .pagination-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 0.5em;
+        margin-top: 3em;
+        padding-top: 2em;
+        border-top: 4px solid var(--cga-light-blue);
+      }
+
+      .no-posts {
+        text-align: center;
+        padding: 3em 1em;
+        color: var(--cga-light-gray);
+        font-size: 1.2em;
+      }
+      
+      /* Mobile Responsive */
+      @media (max-width: 720px) {
+        .blog-post {
+          grid-template-columns: 1fr;
+          gap: 1em;
+        }
+        
+        .post-thumbnail {
+          width: 100%;
+          height: 200px;
+          order: -1;
+        }
+        
+        .hero-image {
+          aspect-ratio: 16/9;
+        }
+        
+        .hero-content {
+          padding: 1.5em;
+        }
+        
+        .hero-content h2 {
+          font-size: 1.5em;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .hero-content {
+          padding: 1em;
+        }
+        
+        .hero-content h2 {
+          font-size: 1.2em;
+        }
+        
+        .post-thumbnail {
+          height: 150px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <Header />
+    <main>
+      <div class="blog-container">
+        <h1>🖹 Textual DooM Scrawling</h1>
+        
+        {latestPost === null && olderPosts.length === 0 ? (
+          <div class="no-posts">
+            <p>No blog posts found. Check your content collection! 📝</p>
+          </div>
+        ) : (
+          <>
+            {latestPost && (
+              <article class="hero-post">
+                {latestPost.data.heroImage && (
+                  <div class="hero-image">
+                    <img src={latestPost.data.heroImage} alt={latestPost.data.title} />
+                  </div>
+                )}
+                <div class="hero-content">
+                  <span class="hero-label">🎏 TOP HOLE</span>
+                  <h2>
+                    <a href={`/blog/${latestPost.id.replace(/\.mdx?$/, '')}/`}>
+                      {latestPost.data.title}
+                    </a>
+                  </h2>
+                  <div class="post-meta">
+                    <FormattedDate date={latestPost.data.pubDate} />
+                    {latestPost.data.tags && (
+                      <span>🏷️ {latestPost.data.tags.join(", ")}</span>
+                    )}
+                  </div>
+                  <p class="post-description">{latestPost.data.description}</p>
+                  <a 
+                    href={`/blog/${latestPost.id.replace(/\.mdx?$/, '')}/`}
+                    class="read-more"
+                  >
+                    Read more →
+                  </a>
+                </div>
+              </article>
+            )}
+            
+            {olderPosts.length > 0 && (
+              <section class="older-posts">
+                {olderPosts.map((post: any) => {
+                  const slug = post.id.replace(/\.mdx?$/, '');
+                  const postUrl = `/blog/${slug}/`;
+                  
+                  return (
+                    <article class="blog-post">
+                      <div class={post.data.heroImage ? "post-thumbnail" : "post-thumbnail no-image"}>
+                        {post.data.heroImage ? (
+                          <a href={postUrl}><img src={post.data.heroImage} alt={post.data.title} /></a>
+                        ) : (
+                          <span>🎨</span>
+                        )}
+                      </div>
+                      <div class="post-content">
+                        <div>
+                          <h3>
+                            <a href={postUrl}>{post.data.title}</a>
+                          </h3>
+                          <div class="post-meta">
+                            <FormattedDate date={post.data.pubDate} />
+                            {post.data.tags && (
+                              <span>🏷️ {post.data.tags.join(", ")}</span>
+                            )}
+                          </div>
+                          <p class="post-description">{post.data.description}</p>
+                        </div>
+                        <a href={postUrl} class="read-more">Read more →</a>
+                      </div>
+                    </article>
+                  );
+                })}
+              </section>
+            )}
+
+            <div class="pagination-wrapper">
+              <Pagination
+                page={page}
+                urlPattern="/blog/:page"
+                firstPageUrl="/blog"
+                showFirstLast={true}
+                showPrevNext={true}
+              />
+            </div>
+          </>
+        )}
+      </div>
+    </main>
+    <Footer />
+  </body>
 </html>

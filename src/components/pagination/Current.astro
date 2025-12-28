@@ -1,0 +1,22 @@
+---
+interface Props {
+  pageNumber: number;
+}
+
+const { pageNumber } = Astro.props;
+---
+
+<span class="current-page">{pageNumber}</span>
+
+<style>
+  .current-page {
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    border: 3px solid var(--cga-pink);
+    background-color: var(--cga-pink);
+    color: var(--cga-navy);
+    font-weight: bold;
+    min-width: 2.5em;
+    text-align: center;
+  }
+</style>
