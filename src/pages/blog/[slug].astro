@@ -6,23 +6,26 @@ import BlogPost from '../../layouts/BlogPost.astro';
 export async function getStaticPaths() {
   const blogEntries = await getCollection('blog');
   
-  return blogEntries.map((entry) => {
-    const slug = entry.id.replace(/\.[^/.]+$/, ''); // Remove extension
-    
-    return {
-      params: { slug },
-      props: { entry },
-    };
-  });
+  return await Promise.all(
+    blogEntries.map(async (entry) => {
+      const slug = entry.id.replace(/\.[^/.]+$/, ''); // Remove extension
+      const { Content } = await render(entry);
+      
+      return {
+        params: { slug },
+        props: { entry, Content },
+      };
+    })
+  );
 }
 
 type Props = {
   entry: CollectionEntry<'blog'>;
+  Content: any;
 };
 
-const { entry } = Astro.props;
+const { entry, Content } = Astro.props;
 const { slug } = Astro.params;
-const { Content } = await render(entry);
 ---
 
 <BlogPost
