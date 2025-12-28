@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
 
@@ -7,16 +7,11 @@ export async function getStaticPaths() {
   const blogEntries = await getCollection('blog');
   
   return blogEntries.map((entry) => {
-    // Use the filename as slug (without extension)
-    const slug = entry.id.replace(/\.mdx?$/, '');
+    const slug = entry.id.replace(/\.[^/.]+$/, ''); // Remove extension
     
     return {
-      params: { 
-        slug: slug
-      },
-      props: { 
-        entry
-      },
+      params: { slug },
+      props: { entry },
     };
   });
 }
@@ -27,7 +22,7 @@ type Props = {
 
 const { entry } = Astro.props;
 const { slug } = Astro.params;
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 ---
 
 <BlogPost
@@ -40,3 +35,4 @@ const { Content } = await entry.render();
 >
   <Content />
 </BlogPost>
+                

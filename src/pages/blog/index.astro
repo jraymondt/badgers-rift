@@ -22,9 +22,13 @@ const { page } = Astro.props;
 const title = "Blog";
 const description = "All blog posts from Badgers Perfection";
 
-// Get the latest post for hero display
-const latestPost = page.data && page.data.length > 0 ? page.data[0] : null;
-const olderPosts = page.data.slice(1);
+// FIXED: Use optional chaining and nullish coalescing
+// page.data is the actual array from paginate()
+const posts = page?.data ?? [];
+const latestPost = posts.length > 0 ? posts[0] : null;
+const olderPosts = posts.length > 1 ? posts.slice(1) : [];
+
+console.log("Posts found:", posts.length);
 ---
 
 <!DOCTYPE html>
@@ -128,7 +132,6 @@ const olderPosts = page.data.slice(1);
         height: 100%;
         object-fit: cover;
         display: block;
-        
       }
             
       .post-thumbnail.no-image {
@@ -200,6 +203,13 @@ const olderPosts = page.data.slice(1);
         padding-top: 2em;
         border-top: 4px solid var(--cga-light-blue);
       }
+
+      .no-posts {
+        text-align: center;
+        padding: 3em 1em;
+        color: var(--cga-light-gray);
+        font-size: 1.2em;
+      }
       
       /* Mobile Responsive */
       @media (max-width: 720px) {
@@ -211,7 +221,7 @@ const olderPosts = page.data.slice(1);
         .post-thumbnail {
           width: 100%;
           height: 200px;
-          order: -1; /* Move thumbnail above text */
+          order: -1;
         }
         
         .hero-image {
@@ -249,82 +259,90 @@ const olderPosts = page.data.slice(1);
       <div class="blog-container">
         <h1>🖹 Textual DooM Scrawling</h1>
         
-        <!-- Hero Post (Latest) -->
-        {latestPost && (
-          <article class="hero-post">
-            {latestPost.data.heroImage && (
-              <div class="hero-image">
-                <img src={latestPost.data.heroImage} alt={latestPost.data.title} />
-              </div>
-            )}
-            <div class="hero-content">
-              <span class="hero-label">🎏 TOP HOLE</span>
-              <h2>
-                <a href={`/blog/${new Date(latestPost.data.pubDate).getFullYear()}/${latestPost.id.replace(/^\d{4}\//, '')}/`}>
-                  {latestPost.data.title}
-                </a>
-              </h2>
-              <div class="post-meta">
-                <FormattedDate date={latestPost.data.pubDate} />
-                {latestPost.data.tags && (
-                  <span>🏷️ {latestPost.data.tags.join(", ")}</span>
-                )}
-              </div>
-              <p class="post-description">{latestPost.data.description}</p>
-              <a 
-                href={`/blog/${new Date(latestPost.data.pubDate).getFullYear()}/${latestPost.id.replace(/^\d{4}\//, '')}/`}
-                class="read-more"
-              >
-                Read more →
-              </a>
-            </div>
-          </article>
-        )}
-        
-        <!-- Older Posts with Thumbnails -->
-        <section class="older-posts">
-          {olderPosts.map((post: any) => {
-            const slug = latestPost.id.replace(/\.mdx?$/, '');
-            const postUrl = `/blog/${slug}/`;
-            
-            return (
-              <article class="blog-post">
-                <div class={post.data.heroImage ? "post-thumbnail" : "post-thumbnail no-image"}>
-                  {post.data.heroImage ? (
-                    <a href={postUrl}><img src={post.data.heroImage} alt={post.data.title} /></a>
-                  ) : (
-                    <span>🎨</span>
-                  )}
-                </div>
-                <div class="post-content">
-                  <div>
-                    <h3>
-                      <a href={postUrl}>{post.data.title}</a>
-                    </h3>
-                    <div class="post-meta">
-                      <FormattedDate date={post.data.pubDate} />
-                      {post.data.tags && (
-                        <span>🏷️ {post.data.tags.join(", ")}</span>
-                      )}
-                    </div>
-                    <p class="post-description">{post.data.description}</p>
+        {latestPost === null && olderPosts.length === 0 ? (
+          <div class="no-posts">
+            <p>No blog posts found. Check your content collection! 📝</p>
+          </div>
+        ) : (
+          <>
+            {latestPost && (
+              <article class="hero-post">
+                {latestPost.data.heroImage && (
+                  <div class="hero-image">
+                    <img src={latestPost.data.heroImage} alt={latestPost.data.title} />
                   </div>
-                  <a href={postUrl} class="read-more">Read more →</a>
+                )}
+                <div class="hero-content">
+                  <span class="hero-label">🎏 TOP HOLE</span>
+                  <h2>
+                    <a href={`/blog/${latestPost.id.replace(/\.mdx?$/, '')}/`}>
+                      {latestPost.data.title}
+                    </a>
+                  </h2>
+                  <div class="post-meta">
+                    <FormattedDate date={latestPost.data.pubDate} />
+                    {latestPost.data.tags && (
+                      <span>🏷️ {latestPost.data.tags.join(", ")}</span>
+                    )}
+                  </div>
+                  <p class="post-description">{latestPost.data.description}</p>
+                  <a 
+                    href={`/blog/${latestPost.id.replace(/\.mdx?$/, '')}/`}
+                    class="read-more"
+                  >
+                    Read more →
+                  </a>
                 </div>
               </article>
-            );
-          })}
-        </section>
+            )}
+            
+            {olderPosts.length > 0 && (
+              <section class="older-posts">
+                {olderPosts.map((post: any) => {
+                  const slug = post.id.replace(/\.mdx?$/, '');
+                  const postUrl = `/blog/${slug}/`;
+                  
+                  return (
+                    <article class="blog-post">
+                      <div class={post.data.heroImage ? "post-thumbnail" : "post-thumbnail no-image"}>
+                        {post.data.heroImage ? (
+                          <a href={postUrl}><img src={post.data.heroImage} alt={post.data.title} /></a>
+                        ) : (
+                          <span>🎨</span>
+                        )}
+                      </div>
+                      <div class="post-content">
+                        <div>
+                          <h3>
+                            <a href={postUrl}>{post.data.title}</a>
+                          </h3>
+                          <div class="post-meta">
+                            <FormattedDate date={post.data.pubDate} />
+                            {post.data.tags && (
+                              <span>🏷️ {post.data.tags.join(", ")}</span>
+                            )}
+                          </div>
+                          <p class="post-description">{post.data.description}</p>
+                        </div>
+                        <a href={postUrl} class="read-more">Read more →</a>
+                      </div>
+                    </article>
+                  );
+                })}
+              </section>
+            )}
 
-        <div class="pagination-wrapper">
-          <Pagination
-            page={page}
-            urlPattern="/blog/:page"
-            firstPageUrl="/blog"
-            showFirstLast={true}
-            showPrevNext={true}
-          />
-        </div>
+            <div class="pagination-wrapper">
+              <Pagination
+                page={page}
+                urlPattern="/blog/:page"
+                firstPageUrl="/blog"
+                showFirstLast={true}
+                showPrevNext={true}
+              />
+            </div>
+          </>
+        )}
       </div>
     </main>
     <Footer />
