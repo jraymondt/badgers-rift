@@ -1,7 +1,8 @@
 ---
 title: true love is a blind pie tasting
 description: Absolutely carpet boraxed and ready for the woodchipper- a Thanksgiving meditation on love and 3.14.
-pubDate: 29 November 2025
+pubDate: 2025-11-29
+updatedDate: 2025-12-30
 heroImage: '/img/2025/eyepie.webp'
 tags:
   - thanksgive

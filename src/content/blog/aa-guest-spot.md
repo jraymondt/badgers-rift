@@ -1,7 +1,7 @@
 ---
 title: Radio Fremantle
 description: Info for Speakers
-pubDate: 01 March 2025
+pubDate: 2025-03-01
 heroImage: '/img/2025/radio_fremantle_aa.png'
 tags:
 - Fremantle

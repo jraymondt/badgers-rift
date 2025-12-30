@@ -2,6 +2,7 @@
 title: the desperate experiment of the first blog
 description: so, you think you can blog?
 pubDate: 2024-10-25
+updatedDate: 2025-12-30
 heroImage: '/img/2024/karrgatup_seeds.jpg'
 tags:
   - personal-essay

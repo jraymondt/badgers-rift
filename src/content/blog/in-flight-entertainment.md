@@ -2,6 +2,7 @@
 title: in-flight entertainment
 description: Strap in kids, it is going to—a wild ride through the absurdity of commercial culture and ad-fueled nonsense.
 pubDate: 2024-12-05
+updatedDate: 2025-12-30
 heroImage: '/img/2024/time_vampires.png'
 tags:
   - dog-tags

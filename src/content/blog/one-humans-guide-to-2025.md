@@ -2,6 +2,7 @@
 title: my thoughts on the year ahead
 description: An uneducated guess- reflections on atomic habits, Hollywood Clinic, and what 2025 might bring.
 pubDate: 2025-01-01
+updatedDate: 2025-12-30
 heroImage: '/blog-placeholder-5.jpg'
 tags:
   - twenty-five

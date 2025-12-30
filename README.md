@@ -19,6 +19,21 @@ npm create astro@latest -- --template blog
 └── tsconfig.json
 ```
 
+### front matters
+
+```yaml
+---
+    title: zample
+    description: zimple
+    pubDate: 2025-12-30
+    updatedDate: 2025-12-31
+    heroImage: /img/2025/
+    tags: 
+    - exzimplzamp
+    - word-salad
+---
+```
+
 ## remind me how to git again
 
 ```bash

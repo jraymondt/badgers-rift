@@ -1,8 +1,8 @@
 ---
 title: this title can get knotted
 description: Jelly tipped choc mint spotted dick- Tooling problems.
-
 pubDate: 2025-01-09
+updatedDate: 2025-12-30
 heroImage: '/img/2025/cownan_the_bovarian.png'
 tags:
   - tool

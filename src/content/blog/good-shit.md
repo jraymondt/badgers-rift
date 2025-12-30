@@ -2,6 +2,7 @@
 title: good shit
 description: A very un-funny typo that somehow became profound- exploring mistakes and pythons through a lamb tunnel.
 pubDate: 2025-02-06
+updatedDate: 2025-12-30
 heroImage: '/img/2025/clams.png'
 tags:
   - fibs

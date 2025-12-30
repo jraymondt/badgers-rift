@@ -2,6 +2,7 @@
 title: why missed Tuesday bloggins?
 description: i am very busy, okay! Thanks
 pubDate: 2024-10-30
+updatedDate: 2025-12-30
 heroImage: '/img/2024/hoofstick.jpg'
 tags:
   - halloweeneve

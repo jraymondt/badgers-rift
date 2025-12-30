@@ -2,6 +2,7 @@
 title: what does it take
 description: to get a drink around here
 pubDate: 2024-11-05
+updatedDate: 2025-12-30
 heroImage: '/img/2024/aahighgatemonday.jpg'
 tags:
   - diablo

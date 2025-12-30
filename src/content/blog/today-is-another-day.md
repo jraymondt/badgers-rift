@@ -2,6 +2,7 @@
 title: today is the day
 description: tomorrow is another day
 pubDate: 2024-11-04
+updatedDate: 2025-12-30
 heroImage: '/img/2024/treeoflife.jpg'
 tags:
   - blogging

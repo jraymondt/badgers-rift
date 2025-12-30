@@ -2,6 +2,7 @@
 title: serenity saver
 description: Meditate on it—rain, steps, and the peace that passes understanding.
 pubDate: 2024-11-08
+updatedDate: 2025-12-30
 heroImage: '/img/2024/howstheserenity.jpg'
 tags:
   - meditation

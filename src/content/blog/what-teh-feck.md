@@ -2,6 +2,7 @@
 title: what teh feck
 description: right up the ferry and the quest the holy badger
 pubDate: 2024-11-03
+updatedDate: 2025-12-30
 heroImage: '/img/2024/subi_party.jpg'
 tags:
   - once human

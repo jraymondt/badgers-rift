@@ -2,6 +2,7 @@
 title: run dmc ham master 
 description: a guide to the universe
 pubDate: 2025-08-17
+updatedDate: 2025-12-30
 heroImage: '/img/2025/dr_zoom.png'
 tags:
   - zoomer

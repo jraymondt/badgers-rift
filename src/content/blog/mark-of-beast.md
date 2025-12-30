@@ -2,6 +2,7 @@
 title: mark of the beast
 description: We are in a spot of bother—navigating scams, spam, and the sinister underbelly of digital existence.
 pubDate: 2024-11-01
+updatedDate: 2025-12-30
 heroImage: '/img/2024/weedsandweet.jpg'
 tags:
   - all-saints-day
