@@ -11,14 +11,16 @@ type Props = CollectionEntry<'blog'>['data'] & {
   description: string;
   slug: string;
   heroImage?: string;
+  nextPost?: CollectionEntry<'blog'> | null;
+  prevPost?: CollectionEntry<'blog'> | null;
 };
 
-const { title, description, pubDate, updatedDate, heroImage, slug } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, slug, nextPost, prevPost } = Astro.props;
 ---
 
 <html lang="en">
     <head>
-        <BaseHead title={title} description={description} heroImage={heroImage} />
+        <BaseHead title={title} description={description} heroImage={heroImage} pubDate={pubDate} />
         <style>
             main {
                 width: calc(100% - 2em);
@@ -67,6 +69,45 @@ const { title, description, pubDate, updatedDate, heroImage, slug } = Astro.prop
                 border-top: 2px solid var(--cga-light-blue);
                 margin: 0;
             }
+            .post-navigation {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 2em;
+                padding-top: 1em;
+                border-top: 2px solid var(--cga-light-blue);
+                gap: 1em;
+            }
+            .nav-link {
+                flex: 1;
+                text-decoration: none;
+                padding: 1em;
+                border: 2px solid var(--cga-light-blue);
+                background-color: rgba(157, 191, 229, 0.05);
+                transition: all 0.2s ease;
+                display: flex;
+                flex-direction: column;
+            }
+            .nav-link:hover {
+                background-color: var(--cga-light-blue);
+                color: var(--cga-navy);
+            }
+            .nav-link:hover .nav-label,
+            .nav-link:hover .nav-title {
+                color: var(--cga-navy);
+            }
+            .nav-label {
+                font-size: 0.8em;
+                text-transform: uppercase;
+                color: var(--cga-light-gray);
+                margin-bottom: 0.5em;
+            }
+            .nav-title {
+                font-weight: bold;
+                color: var(--cga-light-cyan);
+            }
+            .nav-link.next {
+                text-align: right;
+            }
         </style>
     </head>
 
@@ -94,6 +135,24 @@ const { title, description, pubDate, updatedDate, heroImage, slug } = Astro.prop
                     </div>
                     <slot />
                     <LikeButton postSlug={slug} />
+                    
+                    <div class="post-navigation">
+                        {prevPost ? (
+                            <a href={`/blog/${prevPost.id.replace(/\.mdx?$/, '')}/`} class="nav-link prev">
+                                <span class="nav-label">← Previous Post</span>
+                                <span class="nav-title">{prevPost.data.title}</span>
+                            </a>
+                        ) : (
+                            <div /> 
+                        )}
+                        
+                        {nextPost && (
+                            <a href={`/blog/${nextPost.id.replace(/\.mdx?$/, '')}/`} class="nav-link next">
+                                <span class="nav-label">Next Post →</span>
+                                <span class="nav-title">{nextPost.data.title}</span>
+                            </a>
+                        )}
+                    </div>
                 </div>
             </article>
         </main>

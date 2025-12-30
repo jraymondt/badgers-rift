@@ -5,15 +5,21 @@ import BlogPost from '../../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('blog');
+  const posts = blogEntries.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
   
   return await Promise.all(
-    blogEntries.map(async (entry) => {
+    posts.map(async (entry, index) => {
       const slug = entry.id.replace(/\.[^/.]+$/, ''); // Remove extension
       const { Content } = await render(entry);
       
       return {
         params: { slug },
-        props: { entry, Content },
+        props: { 
+          entry, 
+          Content,
+          nextPost: index > 0 ? posts[index - 1] : null,
+          prevPost: index < posts.length - 1 ? posts[index + 1] : null,
+        },
       };
     })
   );
@@ -22,9 +28,11 @@ export async function getStaticPaths() {
 type Props = {
   entry: CollectionEntry<'blog'>;
   Content: any;
+  nextPost: CollectionEntry<'blog'> | null;
+  prevPost: CollectionEntry<'blog'> | null;
 };
 
-const { entry, Content } = Astro.props;
+const { entry, Content, nextPost, prevPost } = Astro.props;
 const { slug } = Astro.params;
 ---
 
@@ -35,6 +43,8 @@ const { slug } = Astro.params;
   updatedDate={entry.data.updatedDate}
   heroImage={entry.data.heroImage}
   slug={slug}
+  nextPost={nextPost}
+  prevPost={prevPost}
 >
   <Content />
 </BlogPost>
