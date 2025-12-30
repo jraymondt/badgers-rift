@@ -19,7 +19,7 @@
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
     "astro": "5.16.6",
-    "fulldev-ui": "^0.6.5",
+    "fulldev-ui": "^0.7.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
