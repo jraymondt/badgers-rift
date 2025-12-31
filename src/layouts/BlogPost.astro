@@ -48,14 +48,14 @@ const { title, description, pubDate, updatedDate, heroImage, slug, nextPost, pre
                 padding: 1em 0;
                 text-align: center;
                 line-height: 1;
-                border-bottom: 4px solid var(--cga-light-blue);
+                
             }
             .title h1 {
                 margin: 0 0 0.5em 0;
                 color: var(--cga-light-cyan);
             }
             .date {
-                margin-bottom: 0.5em;
+                margin-bottom: 0.9em;
                 color: var(--cga-light-gray);
                 font-size: 0.9em;
             }
@@ -131,7 +131,7 @@ const { title, description, pubDate, updatedDate, heroImage, slug, nextPost, pre
                             }
                         </div>
                         <h1>{title}</h1>
-                        <hr />
+                        
                     </div>
                     <slot />
                     <LikeButton postSlug={slug} />
