@@ -269,7 +269,7 @@ console.log("Posts found:", posts.length);
               <article class="hero-post">
                 {latestPost.data.heroImage && (
                   <div class="hero-image">
-                    <img src={latestPost.data.heroImage} alt={latestPost.data.title} />
+                    <a href={`/blog/${latestPost.id.replace(/\.mdx?$/, '')}/`}><img src={latestPost.data.heroImage} alt={latestPost.data.title} /></a>
                   </div>
                 )}
                 <div class="hero-content">

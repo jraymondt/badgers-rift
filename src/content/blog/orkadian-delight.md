@@ -1,31 +1,16 @@
 --- 
-
 title: orkadia sounds nice this time-replacement, chips 
-
 description: It's the time of year where we read things and put them in lists, squirt it into an LLM biscuit and serve. 
-
 pubDate: 2025-12-31 
-
 updatedDate: 2025-12-31 
-
 heroImage: /img/2025/little-fire.png 
-
 tags:  
-
 - end-of-year 
-
 - word-salad 
-
 - end-of-line 
-
 - job-ham 
-
 - job-hunt 
-
 --- 
-
- 
-
 ## wiggly words and fermented salads
 
 Are you alone? call me now, I may or may not pickup it's like some kind of gambling app except we are playing with your emotions!
