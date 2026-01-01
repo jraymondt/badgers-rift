@@ -26,7 +26,9 @@ export const GET: APIRoute = async ({ params }) => {
   });
 };
 
-export const POST: APIRoute = async ({ params }) => {
+export const POST: APIRoute = async ({ params, request }) => {
+  console.log('POST request received for:', params.slug);
+  console.log('Request headers:', Object.fromEntries(request.headers));
   const slug = params.slug;
 
   if (!slug) {
