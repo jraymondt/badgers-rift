@@ -11,6 +11,9 @@ import node from '@astrojs/node';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://spiritualperfection.com.au',
+  server: {
+    checkOrigin: ["https://spiritualperfection.com.au", "https://www.spiritualperfection.com.au"]
+  },
   integrations: [mdx(), sitemap(), db()],
 
   adapter: node({
