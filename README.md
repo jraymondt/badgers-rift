@@ -33,6 +33,12 @@ npm create astro@latest -- --template blog
     - word-salad
 ---
 ```
+### VPS 
+
+```bash
+ASTRO_DATABASE_FILE="file:db.sqlite" npm run build
+pm2 restart all
+```
 
 ## remind me how to git again
 
