@@ -2,7 +2,7 @@
 title: orkadia sounds nice this time-replacement, chips 
 description: It's the time of year where we read things and put them in lists, squirt it into an LLM biscuit and serve. 
 pubDate: 2025-12-31 
-updatedDate: 2025-12-31 
+updatedDate: 2026-01-02 
 heroImage: /img/2025/little-fire.png 
 tags:  
 - end-of-year 
@@ -31,7 +31,7 @@ It was the night before the executioner took his daughter to the laundromat for 
 
 I have been communicating with people via text as soon as I got my grubby little paws on a modem and internet connection, I heard a classmate in Gero talking about IRC and it sounded amazing, this of course, is how jimbobquad finds "true love" and the rest, is a pastel shaped nightmare with sprinkles.
 
-The point is I have always had IRC logs to look over, or the modern chat equivalent when I can't remember something from a "conversation", now I find myself having more meatspace real time face-to-face talky time, I need to take notes, otherwise I will forget things, even when it is very interesting people I quite like.
+The point is I have always had IRC logs to look over, or the modern chat equivalent when I can't remember something from a "conversation", now I find myself having more meatspace real time face-to-face talky time, I need to take notes, otherwise I will forget things, even when I am talking to very interesting people I quite like.
 
 ![henceforth potate](/img/2025/foison.png)
 
@@ -39,9 +39,9 @@ The point is I have always had IRC logs to look over, or the modern chat equival
 
 I also came to realise that without my usual escape vessel I can get quite pissy, angry even.
 
-Come January in about four hours I will be getting myself to a psych (more than four hours) and I have already been attending some art therapy, BBQ'd a French river and installed an overhead artichoke in dust-off valve.
+Come January in about four hours I will be getting myself to a psych (more than four hours) and I have already been attending some art therapy, BBQ'd a French river and installed an overhead artichoke in a dust-off valve.
 
-Ok shows over, that's enough word salad, someone must clean up this mess the cake will be here soon.
+Ok, shows over, that's enough word salad, someone must clean up this mess the cake will be here five minutes.
 I will be working with professionals to cleanse the den of evil, and make myself better for you.
 
 Incremental.
