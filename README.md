@@ -33,7 +33,8 @@ npm create astro@latest -- --template blog
     - word-salad
 ---
 ```
-### VPS 
+
+### VPS
 
 ```bash
 ASTRO_DATABASE_FILE="file:db.sqlite" npm run build
