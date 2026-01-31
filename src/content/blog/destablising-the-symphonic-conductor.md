@@ -79,6 +79,8 @@ I do feel empty, I am operating in the world like a human, but I have no connect
 
 ### I am the insect on fire
 
+I know I need to be strong, but I am on fire.
+
 ![alt text](/img/2026/buy-stuff.jpg)
 
 I am still here.
