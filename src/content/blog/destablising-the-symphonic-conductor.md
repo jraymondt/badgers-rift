@@ -84,3 +84,5 @@ I know I need to be strong, but I am on fire.
 ![alt text](/img/2026/buy-stuff.jpg)
 
 I am still here.
+
+<3
