@@ -2,7 +2,7 @@
 title: destabilising the symphonic conductor
 description: so, whats occuring?
 pubDate: 2026-01-31
-updatedDate: 2026-01-31
+updatedDate: 2026-02-02k
 heroImage: '/img/2026/swan-lake.jpg'
 tags:
   - life-changes
