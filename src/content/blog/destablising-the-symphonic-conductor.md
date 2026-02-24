@@ -2,7 +2,7 @@
 title: destabilising the symphonic conductor
 description: so, whats occuring?
 pubDate: 2026-01-31
-updatedDate: 2026-02-02k
+updatedDate: 2026-02-24
 heroImage: '/img/2026/swan-lake.jpg'
 tags:
   - life-changes
@@ -69,7 +69,7 @@ My Father cooked for me I feel loved, that is all I *NEED*, that and honesty. . 
 
 ## clam
 
-![why buy when you can buy](/img/2026/buy-stuff.jpg)
+![why buy when you can chicken](/img/2026/chicken-anyway.jpg)
 
 ## buy more shit and fill the emptiness
 
@@ -83,7 +83,7 @@ I do feel empty, I am operating in the world like a human, but I have no connect
 
 I know I need to be strong, but I am on fire.
 
-![alt text](/img/2026/buy-stuff.jpg)
+![alt stuff](/img/2026/buy-stuff.jpg)
 
 I am still here.
 
