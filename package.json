@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "ASTRO_DATABASE_FILE=./db/prod.db astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
