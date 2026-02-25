@@ -2,7 +2,7 @@
 title: destabilising the symphonic conductor
 description: so, whats occuring?
 pubDate: 2026-01-31
-updatedDate: 2026-01-31
+updatedDate: 2026-02-24
 heroImage: '/img/2026/swan-lake.jpg'
 tags:
   - life-changes
@@ -41,7 +41,7 @@ Doing the right things, I need to shutup and take it, stop complaining everythin
 ## stoic fuckface
 
 And now I need to inform you I read: "The Essential Marcus Aurelius" <(newly translated & introduced by Jacob Needleman & John P. Piazza)thanks Uncle Kerry>
-From somewhere I am jogging then join the fucking horrible scammy gym nearly everyday, I have given them my 30 days notice. 
+From somewhere I am jogging then join the fucking horrible scammy gym nearly everyday, I have given them my 30 days notice.
 
 ### Again shutup and take it
 
@@ -50,6 +50,8 @@ The loss of abuse-flab is nice, starting to feel a little human.
 I have not drunk the kool-aid and joined the terminally online broicism manoshpere cult.
 Those fucks can get fucked, dog cunt peices of shit, abusing a helpful guide to living.
 You know who you are, and you almost definately are not reading this whiny shit.
+
+Fucking hell, this crap reads like a 19 year old emo onstruggling with life in 480p on liveJournal. [liveJournal finally got video in 2015](https://news.livejournal.com/148548.html?)
 
 ![not here](/img/2026/not-here.png)
 
@@ -67,7 +69,7 @@ My Father cooked for me I feel loved, that is all I *NEED*, that and honesty. . 
 
 ## clam
 
-![why buy when you can buy](/img/2026/buy-stuff.jpg)
+![why buy when you can chicken](/img/2026/chicken-anyway.jpg)
 
 ## buy more shit and fill the emptiness
 
@@ -81,6 +83,8 @@ I do feel empty, I am operating in the world like a human, but I have no connect
 
 I know I need to be strong, but I am on fire.
 
-![alt text](/img/2026/buy-stuff.jpg)
+![alt stuff](/img/2026/buy-stuff.jpg)
 
 I am still here.
+
+<3
