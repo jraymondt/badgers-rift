@@ -2,7 +2,7 @@
 title: making space for new steps of change
 description: it got very serial, time to kill and other novels almost conceived in a jaffle machine
 pubDate: 2026-02-25
-updatedDate: 2026-02-25
+updatedDate: 2026-03-15
 heroImage: '/img/2026/spice.webp'
 tags:
   - shadow
