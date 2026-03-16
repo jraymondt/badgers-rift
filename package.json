@@ -1,7 +1,7 @@
 {
   "name": "badgers-perfection",
   "type": "module",
-  "version": "3.02.28",
+  "version": "3.03.16",
   "license": "MIT",
   "scripts": {
     "dev": "astro dev",
