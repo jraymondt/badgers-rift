@@ -2,7 +2,7 @@
 title: the wounded
 description: don't think I even tried to be funny in this one, TISM
 pubDate: 2026-03-16
-updatedDate: 2026-03-16
+updatedDate: 2026-03-17
 heroImage: '/img/2026/death-shadow.webp'
 tags:
   - death
@@ -39,7 +39,7 @@ I will lay my weapons down, listen more than I defend, find comfort in fire.
 
 The jetty is clear, better, no burden of fear.
 
-![ude](/img/2026/ude.webp)
+![busso jetty](/img/2026/busso-jetty.jpg)
 
 ## diagnosis
 
@@ -59,7 +59,7 @@ Centuries of knowledge.
 
 Gnosis.
 
-![busso jetty](/img/2026/busso-jetty.jpg)
+![ude](/img/2026/ude.webp)
 
 ### walk the walk 2026
 
