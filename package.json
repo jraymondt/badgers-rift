@@ -1,12 +1,12 @@
 {
   "name": "badgers-perfection",
   "type": "module",
-  "version": "0.7.22",
+  "version": "3.02.28",
   "license": "MIT",
   "scripts": {
     "dev": "astro dev",
     "build": "ASTRO_DATABASE_FILE=./db/prod.db astro build",
-    "preview": "astro preview",
+    "start": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
