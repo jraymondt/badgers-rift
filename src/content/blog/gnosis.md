@@ -21,23 +21,50 @@ I warned you there would be emo shit to deal with!
 
 ![empty](/img/2026/empty.webp)
 
-### not here now
+### Cumha
 
 I see your suffering.
+I saw it then, too, across the silence —
+across the void
+you called distance.
 
-We all have a right to our masks, carved over years of quiet ache and private disappointments.
+We have a right to our masks,
+carved over years of quiet ache
+and private disappointments.
+But some of us deploy them like a verdict.
 
-When kindness reaches in to unwrap our pain, we sometimes meet it with thorns in soft tissue, mistaking gentle hands for a threat.
+When kindness reaches in to unwrap our pain,
+we meet thorns in soft tissue,
+mistaking gentle hands for a threat.
+I reached. You counted the fingers.
 
-We miss the point, clutching at the moral high ground, an island to die on, immolated petals that once were something tender.
-Let’s not play with fire. Let’s not burn each other with hearts of quiet rage, we are afraid, afraid of being seen without armour.
+We miss the point, clutching at the high ground,
+an island to die on, immolated petals
+that once were something tender.
+We needed a villain.
 
-I have failed before.
-I will fail again.
+My anger had a name —
+invisible while you were there,
+nothing to give in the flesh.
+Love rationed like a punishment
+I still don't understand.
 
-I will lay my weapons down, listen more than I defend, find comfort in fire.
+What warmth you gave was careful,
+measured out like a plan
+enough to keep me grateful,
+never enough to make me sure.
 
-The jetty is clear, better, no burden of fear.
+I have failed before. I will fail again.
+I will not carry this story
+of this ending as mine alone.
+
+Lay the weapons down —
+no absolution,
+the little fire gone cold.
+
+The jetty is clear now.
+Not better.
+Just clear.
 
 ![busso jetty](/img/2026/busso-jetty.jpg)
 
