@@ -2,7 +2,7 @@
 title: the wounded
 description: don't think I even tried to be funny in this one, TISM
 pubDate: 2026-03-16
-updatedDate: 2026-03-17
+updatedDate: 2026-03-21
 heroImage: '/img/2026/death-shadow.webp'
 tags:
   - death
